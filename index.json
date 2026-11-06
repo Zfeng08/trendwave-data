@@ -1,7 +1,7 @@
 {
   "schema": "trendwave.index.v1",
-  "updatedAt": "2026-11-06T18:02:56.934Z",
-  "count": 55,
+  "updatedAt": "2026-11-06T19:16:29.939Z",
+  "count": 56,
   "snapshots": [
     {
       "slot": "2026-11-04T19:00+08:00",
@@ -772,6 +772,20 @@
       "resonanceCount": 1,
       "path": "snapshots/2026-11-07/02-00.json",
       "summary": "本轮共存档 126 条热搜：微博 50 条、抖音 49 条、X 27 条。「娱乐明星」以 13 条居首，体育竞技（9）与影视综艺（8）紧随其后。跨平台共振集中在「cybertruck」等 1 组议题。新上榜 18 条，其中「#HisseSerbestFonTamAnaPara」在X升至第 3 位。微博的重心在娱乐明星，抖音的重心在影视综艺，X 的重心在音乐演出。"
+    },
+    {
+      "slot": "2026-11-07T03:00+08:00",
+      "capturedAt": "2026-11-06T19:07:15.534+00:00",
+      "total": 126,
+      "platforms": {
+        "weibo": 50,
+        "douyin": 50,
+        "x": 26
+      },
+      "newCount": 23,
+      "resonanceCount": 1,
+      "path": "snapshots/2026-11-07/03-00.json",
+      "summary": "本轮共存档 126 条热搜：微博 50 条、抖音 50 条、X 26 条。「娱乐明星」以 11 条居首，影视综艺（7）与游戏电竞（7）紧随其后。跨平台共振集中在「cybertruck」等 1 组议题。新上榜 23 条，其中「#AlbayrakFinans」在X升至第 2 位。微博的重心在娱乐明星，抖音的重心在生活万象，X 的重心在音乐演出。"
     }
   ]
 }
