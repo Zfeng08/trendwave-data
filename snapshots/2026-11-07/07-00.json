@@ -1,0 +1,891 @@
+{
+  "schema": "trendwave.snapshot.v1",
+  "exportedAt": "2026-11-07T02:32:06.498Z",
+  "id": "ede70f18-5e09-4183-87cb-b567fa06b2ef",
+  "slot": "2026-11-07T07:00+08:00",
+  "capturedAt": "2026-11-06T23:18:07.537+00:00",
+  "summary": "本轮共存档 50 条热搜：微博 50 条。「娱乐明星」以 9 条居首，社会民生（6）与科技数码（3）紧随其后。三平台暂未出现明显同题共振，各自的议程相对独立。新上榜 9 条，其中「#铸牢共同体中华一家亲#」在微博升至第 3 位。抖音、X本轮抓取异常，数据不完整。",
+  "stats": {
+    "total": 50,
+    "topNew": [
+      {
+        "rank": 3,
+        "title": "#铸牢共同体中华一家亲#",
+        "domain": "other",
+        "platform": "weibo"
+      },
+      {
+        "rank": 7,
+        "title": "#3城人均住户存款超20万#",
+        "domain": "other",
+        "platform": "weibo"
+      },
+      {
+        "rank": 16,
+        "title": "#临沂一车凌晨冲撞多车和摊位后逃逸#",
+        "domain": "other",
+        "platform": "weibo"
+      },
+      {
+        "rank": 19,
+        "title": "#肖战小城良方收视节节高#",
+        "domain": "screen",
+        "platform": "weibo"
+      },
+      {
+        "rank": 41,
+        "title": "#商户称商南命案受伤警察流了很多血#",
+        "domain": "legal",
+        "platform": "weibo"
+      }
+    ],
+    "domains": [
+      {
+        "id": "other",
+        "color": "#8b8f96",
+        "count": 18,
+        "label": "其他",
+        "share": 36,
+        "platforms": {
+          "x": 0,
+          "weibo": 18,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "celebrity",
+        "color": "#f27ea9",
+        "count": 9,
+        "label": "娱乐明星",
+        "share": 18,
+        "platforms": {
+          "x": 0,
+          "weibo": 9,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "society",
+        "color": "#f0b74e",
+        "count": 6,
+        "label": "社会民生",
+        "share": 12,
+        "platforms": {
+          "x": 0,
+          "weibo": 6,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "tech",
+        "color": "#4ec5f1",
+        "count": 3,
+        "label": "科技数码",
+        "share": 6,
+        "platforms": {
+          "x": 0,
+          "weibo": 3,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "legal",
+        "color": "#c7a17a",
+        "count": 3,
+        "label": "法治案件",
+        "share": 6,
+        "platforms": {
+          "x": 0,
+          "weibo": 3,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "sports",
+        "color": "#6fcf97",
+        "count": 3,
+        "label": "体育竞技",
+        "share": 6,
+        "platforms": {
+          "x": 0,
+          "weibo": 3,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "screen",
+        "color": "#b48cf2",
+        "count": 2,
+        "label": "影视综艺",
+        "share": 4,
+        "platforms": {
+          "x": 0,
+          "weibo": 2,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "gaming",
+        "color": "#9d7bff",
+        "count": 2,
+        "label": "游戏电竞",
+        "share": 4,
+        "platforms": {
+          "x": 0,
+          "weibo": 2,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "life",
+        "color": "#a8d8b9",
+        "count": 1,
+        "label": "生活万象",
+        "share": 2,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "politics",
+        "color": "#e8634a",
+        "count": 1,
+        "label": "时政国际",
+        "share": 2,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "health",
+        "color": "#f28c8c",
+        "count": 1,
+        "label": "健康医疗",
+        "share": 2,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
+          "douyin": 0
+        }
+      },
+      {
+        "id": "music",
+        "color": "#f2a9c4",
+        "count": 1,
+        "label": "音乐演出",
+        "share": 2,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
+          "douyin": 0
+        }
+      }
+    ],
+    "newCount": 9,
+    "platforms": {
+      "x": {
+        "ok": false,
+        "note": "",
+        "count": 0,
+        "error": "网络请求失败",
+        "topDomain": null,
+        "topDomainLabel": ""
+      },
+      "weibo": {
+        "ok": true,
+        "note": "微博公开热搜接口",
+        "count": 50,
+        "error": "",
+        "topDomain": "celebrity",
+        "topDomainLabel": "娱乐明星"
+      },
+      "douyin": {
+        "ok": false,
+        "note": "",
+        "count": 0,
+        "error": "抓取超时",
+        "topDomain": null,
+        "topDomainLabel": ""
+      }
+    },
+    "resonance": [],
+    "deltaTotal": -75,
+    "previousTotal": 125
+  },
+  "platforms": {
+    "weibo": {
+      "id": "weibo",
+      "label": "微博",
+      "en": "WEIBO",
+      "feed": "实时热搜",
+      "color": "#ff7a45",
+      "status": {
+        "count": 50,
+        "ok": true,
+        "error": "",
+        "note": "微博公开热搜接口",
+        "topDomain": "celebrity",
+        "topDomainLabel": "娱乐明星"
+      },
+      "items": [
+        {
+          "rank": 1,
+          "title": "没本事但听话的婚姻没内耗",
+          "heat": 741028,
+          "heatText": "74.1万",
+          "url": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%9C%AC%E4%BA%8B%E4%BD%86%E5%90%AC%E8%AF%9D%E7%9A%84%E5%A9%9A%E5%A7%BB%E6%B2%A1%E5%86%85%E8%80%97",
+          "domain": "life",
+          "tags": [
+            "婚姻"
+          ],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 2,
+          "title": "#圆通总裁心疼儿子Tim#",
+          "heat": 545910,
+          "heatText": "54.6万",
+          "url": "https://s.weibo.com/weibo?q=%E5%9C%86%E9%80%9A%E6%80%BB%E8%A3%81%E5%BF%83%E7%96%BC%E5%84%BF%E5%AD%90Tim",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 3,
+          "title": "#铸牢共同体中华一家亲#",
+          "heat": 425973,
+          "heatText": "42.6万",
+          "url": "https://s.weibo.com/weibo?q=%E9%93%B8%E7%89%A2%E5%85%B1%E5%90%8C%E4%BD%93%E4%B8%AD%E5%8D%8E%E4%B8%80%E5%AE%B6%E4%BA%B2",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 4,
+          "title": "全麻胃肠镜睡一觉就做完",
+          "heat": 235209,
+          "heatText": "23.5万",
+          "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E9%BA%BB%E8%83%83%E8%82%A0%E9%95%9C%E7%9D%A1%E4%B8%80%E8%A7%89%E5%B0%B1%E5%81%9A%E5%AE%8C",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 5,
+          "title": "许飞非虚构写作级别的表达",
+          "heat": 228927,
+          "heatText": "22.9万",
+          "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E9%9D%9E%E8%99%9A%E6%9E%84%E5%86%99%E4%BD%9C%E7%BA%A7%E5%88%AB%E7%9A%84%E8%A1%A8%E8%BE%BE",
+          "domain": "celebrity",
+          "tags": [
+            "许飞"
+          ],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 6,
+          "title": "#原来器官没在我以为的地方#",
+          "heat": 162240,
+          "heatText": "16.2万",
+          "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%99%A8%E5%AE%98%E6%B2%A1%E5%9C%A8%E6%88%91%E4%BB%A5%E4%B8%BA%E7%9A%84%E5%9C%B0%E6%96%B9",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 25
+        },
+        {
+          "rank": 7,
+          "title": "#3城人均住户存款超20万#",
+          "heat": 91989,
+          "heatText": "9.2万",
+          "url": "https://s.weibo.com/weibo?q=3%E5%9F%8E%E4%BA%BA%E5%9D%87%E4%BD%8F%E6%88%B7%E5%AD%98%E6%AC%BE%E8%B6%8520%E4%B8%87",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 8,
+          "title": "#肖战以为比杆多耳是个名人#",
+          "heat": 78415,
+          "heatText": "7.8万",
+          "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%BB%A5%E4%B8%BA%E6%AF%94%E6%9D%86%E5%A4%9A%E8%80%B3%E6%98%AF%E4%B8%AA%E5%90%8D%E4%BA%BA",
+          "domain": "celebrity",
+          "tags": [
+            "肖战"
+          ],
+          "isNew": false,
+          "delta": 9
+        },
+        {
+          "rank": 9,
+          "title": "#美国10月非农远超预期#",
+          "heat": 77875,
+          "heatText": "7.8万",
+          "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD10%E6%9C%88%E9%9D%9E%E5%86%9C%E8%BF%9C%E8%B6%85%E9%A2%84%E6%9C%9F",
+          "domain": "politics",
+          "tags": [
+            "美国"
+          ],
+          "isNew": false,
+          "delta": 5
+        },
+        {
+          "rank": 10,
+          "title": "#后会友期综史一#",
+          "heat": 77263,
+          "heatText": "7.7万",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%BB%BC%E5%8F%B2%E4%B8%80",
+          "domain": "screen",
+          "tags": [
+            "后会友期"
+          ],
+          "isNew": false,
+          "delta": -2
+        },
+        {
+          "rank": 11,
+          "title": "#张萌老公简历居然这么厉害#",
+          "heat": 76415,
+          "heatText": "7.6万",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E8%80%81%E5%85%AC%E7%AE%80%E5%8E%86%E5%B1%85%E7%84%B6%E8%BF%99%E4%B9%88%E5%8E%89%E5%AE%B3",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -5
+        },
+        {
+          "rank": 12,
+          "title": "小米澎程主驾车门被撞仍保护车主",
+          "heat": 75749,
+          "heatText": "7.6万",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E4%B8%BB%E9%A9%BE%E8%BD%A6%E9%97%A8%E8%A2%AB%E6%92%9E%E4%BB%8D%E4%BF%9D%E6%8A%A4%E8%BD%A6%E4%B8%BB",
+          "domain": "tech",
+          "tags": [
+            "小米"
+          ],
+          "isNew": false,
+          "delta": -1
+        },
+        {
+          "rank": 13,
+          "title": "#11岁女童遭性侵被困宾馆5小时#",
+          "heat": 75242,
+          "heatText": "7.5万",
+          "url": "https://s.weibo.com/weibo?q=11%E5%B2%81%E5%A5%B3%E7%AB%A5%E9%81%AD%E6%80%A7%E4%BE%B5%E8%A2%AB%E5%9B%B0%E5%AE%BE%E9%A6%865%E5%B0%8F%E6%97%B6",
+          "domain": "legal",
+          "tags": [
+            "性侵"
+          ],
+          "isNew": false,
+          "delta": -1
+        },
+        {
+          "rank": 14,
+          "title": "#厉娜因为有工作激动到睡不着#",
+          "heat": 74271,
+          "heatText": "7.4万",
+          "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%9B%A0%E4%B8%BA%E6%9C%89%E5%B7%A5%E4%BD%9C%E6%BF%80%E5%8A%A8%E5%88%B0%E7%9D%A1%E4%B8%8D%E7%9D%80",
+          "domain": "celebrity",
+          "tags": [
+            "厉娜"
+          ],
+          "isNew": false,
+          "delta": -7
+        },
+        {
+          "rank": 15,
+          "title": "#KC挑衅Faker#",
+          "heat": 73655,
+          "heatText": "7.4万",
+          "url": "https://s.weibo.com/weibo?q=KC%E6%8C%91%E8%A1%85Faker",
+          "domain": "gaming",
+          "tags": [
+            "faker"
+          ],
+          "isNew": false,
+          "delta": -2
+        },
+        {
+          "rank": 16,
+          "title": "#临沂一车凌晨冲撞多车和摊位后逃逸#",
+          "heat": 73399,
+          "heatText": "7.3万",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%B4%E6%B2%82%E4%B8%80%E8%BD%A6%E5%87%8C%E6%99%A8%E5%86%B2%E6%92%9E%E5%A4%9A%E8%BD%A6%E5%92%8C%E6%91%8A%E4%BD%8D%E5%90%8E%E9%80%83%E9%80%B8",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 17,
+          "title": "#赵丽颖周迅打招呼#",
+          "heat": 70095,
+          "heatText": "7.0万",
+          "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E4%B8%BD%E9%A2%96%E5%91%A8%E8%BF%85%E6%89%93%E6%8B%9B%E5%91%BC",
+          "domain": "celebrity",
+          "tags": [
+            "赵丽颖",
+            "周迅"
+          ],
+          "isNew": false,
+          "delta": 11
+        },
+        {
+          "rank": 18,
+          "title": "网友解读白小纯审判青稚",
+          "heat": 68975,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E5%8F%8B%E8%A7%A3%E8%AF%BB%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%AE%A1%E5%88%A4%E9%9D%92%E7%A8%9A",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -2
+        },
+        {
+          "rank": 19,
+          "title": "#肖战小城良方收视节节高#",
+          "heat": 68968,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E6%94%B6%E8%A7%86%E8%8A%82%E8%8A%82%E9%AB%98",
+          "domain": "screen",
+          "tags": [
+            "收视"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 20,
+          "title": "#姜妍吃的饭被蒋欣看到天要塌了#",
+          "heat": 68939,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A7%9C%E5%A6%8D%E5%90%83%E7%9A%84%E9%A5%AD%E8%A2%AB%E8%92%8B%E6%AC%A3%E7%9C%8B%E5%88%B0%E5%A4%A9%E8%A6%81%E5%A1%8C%E4%BA%86",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -5
+        },
+        {
+          "rank": 21,
+          "title": "大冰回答八年没上班的女子",
+          "heat": 68883,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%86%B0%E5%9B%9E%E7%AD%94%E5%85%AB%E5%B9%B4%E6%B2%A1%E4%B8%8A%E7%8F%AD%E7%9A%84%E5%A5%B3%E5%AD%90",
+          "domain": "society",
+          "tags": [
+            "女子"
+          ],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 22,
+          "title": "工作真的会改变人的性格",
+          "heat": 68848,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%BC%9A%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E6%80%A7%E6%A0%BC",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 1
+        },
+        {
+          "rank": 23,
+          "title": "永远不要和人产生太深的羁绊",
+          "heat": 68831,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E6%B0%B8%E8%BF%9C%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BA%BA%E4%BA%A7%E7%94%9F%E5%A4%AA%E6%B7%B1%E7%9A%84%E7%BE%81%E7%BB%8A",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -1
+        },
+        {
+          "rank": 24,
+          "title": "#11元拍下鹤岗一套房男子发声#",
+          "heat": 68786,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=11%E5%85%83%E6%8B%8D%E4%B8%8B%E9%B9%A4%E5%B2%97%E4%B8%80%E5%A5%97%E6%88%BF%E7%94%B7%E5%AD%90%E5%8F%91%E5%A3%B0",
+          "domain": "society",
+          "tags": [
+            "男子"
+          ],
+          "isNew": false,
+          "delta": 3
+        },
+        {
+          "rank": 25,
+          "title": "有能退休的城市就有安全感",
+          "heat": 68736,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E8%83%BD%E9%80%80%E4%BC%91%E7%9A%84%E5%9F%8E%E5%B8%82%E5%B0%B1%E6%9C%89%E5%AE%89%E5%85%A8%E6%84%9F",
+          "domain": "society",
+          "tags": [
+            "退休"
+          ],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 26,
+          "title": "#立冬后建议多吃这些食物#",
+          "heat": 68719,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E7%AB%8B%E5%86%AC%E5%90%8E%E5%BB%BA%E8%AE%AE%E5%A4%9A%E5%90%83%E8%BF%99%E4%BA%9B%E9%A3%9F%E7%89%A9",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 3
+        },
+        {
+          "rank": 27,
+          "title": "#做了近视激光手术的人后来怎样了#",
+          "heat": 68674,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E5%81%9A%E4%BA%86%E8%BF%91%E8%A7%86%E6%BF%80%E5%85%89%E6%89%8B%E6%9C%AF%E7%9A%84%E4%BA%BA%E5%90%8E%E6%9D%A5%E6%80%8E%E6%A0%B7%E4%BA%86",
+          "domain": "health",
+          "tags": [
+            "手术",
+            "近视"
+          ],
+          "isNew": false,
+          "delta": 11
+        },
+        {
+          "rank": 28,
+          "title": "#女子称父亲倒在站台旅客施救被制止#",
+          "heat": 68655,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E7%88%B6%E4%BA%B2%E5%80%92%E5%9C%A8%E7%AB%99%E5%8F%B0%E6%97%85%E5%AE%A2%E6%96%BD%E6%95%91%E8%A2%AB%E5%88%B6%E6%AD%A2",
+          "domain": "society",
+          "tags": [
+            "女子"
+          ],
+          "isNew": false,
+          "delta": 16
+        },
+        {
+          "rank": 29,
+          "title": "#青稚听到和白小纯一起住偷笑#",
+          "heat": 68600,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%90%AC%E5%88%B0%E5%92%8C%E7%99%BD%E5%B0%8F%E7%BA%AF%E4%B8%80%E8%B5%B7%E4%BD%8F%E5%81%B7%E7%AC%91",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -19
+        },
+        {
+          "rank": 30,
+          "title": "#特斯拉将逐步停产Cybertruck#",
+          "heat": 68577,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%96%AF%E6%8B%89%E5%B0%86%E9%80%90%E6%AD%A5%E5%81%9C%E4%BA%A7Cybertruck",
+          "domain": "tech",
+          "tags": [
+            "特斯拉"
+          ],
+          "isNew": false,
+          "delta": 5
+        },
+        {
+          "rank": 31,
+          "title": "#车站回应制止旅客救倒地男子#",
+          "heat": 68558,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E8%BD%A6%E7%AB%99%E5%9B%9E%E5%BA%94%E5%88%B6%E6%AD%A2%E6%97%85%E5%AE%A2%E6%95%91%E5%80%92%E5%9C%B0%E7%94%B7%E5%AD%90",
+          "domain": "society",
+          "tags": [
+            "男子"
+          ],
+          "isNew": false,
+          "delta": 2
+        },
+        {
+          "rank": 32,
+          "title": "格拉夫认领赵丽颖珠宝",
+          "heat": 68505,
+          "heatText": "6.9万",
+          "url": "https://s.weibo.com/weibo?q=%E6%A0%BC%E6%8B%89%E5%A4%AB%E8%AE%A4%E9%A2%86%E8%B5%B5%E4%B8%BD%E9%A2%96%E7%8F%A0%E5%AE%9D",
+          "domain": "celebrity",
+          "tags": [
+            "赵丽颖"
+          ],
+          "isNew": false,
+          "delta": 14
+        },
+        {
+          "rank": 33,
+          "title": "友情的回光返照最让人失落",
+          "heat": 68480,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%8F%8B%E6%83%85%E7%9A%84%E5%9B%9E%E5%85%89%E8%BF%94%E7%85%A7%E6%9C%80%E8%AE%A9%E4%BA%BA%E5%A4%B1%E8%90%BD",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 1
+        },
+        {
+          "rank": 34,
+          "title": "青稚白小纯好标准的刻舟求剑",
+          "heat": 68424,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%A5%BD%E6%A0%87%E5%87%86%E7%9A%84%E5%88%BB%E8%88%9F%E6%B1%82%E5%89%91",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -8
+        },
+        {
+          "rank": 35,
+          "title": "取消化妆大赛吧我们已经有冠军了",
+          "heat": 68421,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%8F%96%E6%B6%88%E5%8C%96%E5%A6%86%E5%A4%A7%E8%B5%9B%E5%90%A7%E6%88%91%E4%BB%AC%E5%B7%B2%E7%BB%8F%E6%9C%89%E5%86%A0%E5%86%9B%E4%BA%86",
+          "domain": "sports",
+          "tags": [
+            "冠军"
+          ],
+          "isNew": false,
+          "delta": -3
+        },
+        {
+          "rank": 36,
+          "title": "#曝乔欣有孩子了#",
+          "heat": 68369,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E4%B9%94%E6%AC%A3%E6%9C%89%E5%AD%A9%E5%AD%90%E4%BA%86",
+          "domain": "society",
+          "tags": [
+            "孩子"
+          ],
+          "isNew": false,
+          "delta": 14
+        },
+        {
+          "rank": 37,
+          "title": "#张萌辟谣大IP剧是陈情令#",
+          "heat": 68335,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E8%BE%9F%E8%B0%A3%E5%A4%A7IP%E5%89%A7%E6%98%AF%E9%99%88%E6%83%85%E4%BB%A4",
+          "domain": "celebrity",
+          "tags": [
+            "辟谣"
+          ],
+          "isNew": false,
+          "delta": -19
+        },
+        {
+          "rank": 38,
+          "title": "#还原商南重大刑事案嫌疑人路线#",
+          "heat": 68299,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%98%E5%8E%9F%E5%95%86%E5%8D%97%E9%87%8D%E5%A4%A7%E5%88%91%E4%BA%8B%E6%A1%88%E5%AB%8C%E7%96%91%E4%BA%BA%E8%B7%AF%E7%BA%BF",
+          "domain": "legal",
+          "tags": [
+            "嫌疑人",
+            "刑事"
+          ],
+          "isNew": false,
+          "delta": -8
+        },
+        {
+          "rank": 39,
+          "title": "#WTA年终总决赛单人照公布#",
+          "heat": 68268,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=WTA%E5%B9%B4%E7%BB%88%E6%80%BB%E5%86%B3%E8%B5%9B%E5%8D%95%E4%BA%BA%E7%85%A7%E5%85%AC%E5%B8%83",
+          "domain": "sports",
+          "tags": [
+            "决赛"
+          ],
+          "isNew": false,
+          "delta": -30
+        },
+        {
+          "rank": 40,
+          "title": "许飞是全网唯一文吉儿王子璇CP粉",
+          "heat": 68223,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E6%98%AF%E5%85%A8%E7%BD%91%E5%94%AF%E4%B8%80%E6%96%87%E5%90%89%E5%84%BF%E7%8E%8B%E5%AD%90%E7%92%87CP%E7%B2%89",
+          "domain": "celebrity",
+          "tags": [
+            "许飞",
+            "王子璇",
+            "文吉儿"
+          ],
+          "isNew": false,
+          "delta": -16
+        },
+        {
+          "rank": 41,
+          "title": "#商户称商南命案受伤警察流了很多血#",
+          "heat": 68204,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%95%86%E6%88%B7%E7%A7%B0%E5%95%86%E5%8D%97%E5%91%BD%E6%A1%88%E5%8F%97%E4%BC%A4%E8%AD%A6%E5%AF%9F%E6%B5%81%E4%BA%86%E5%BE%88%E5%A4%9A%E8%A1%80",
+          "domain": "legal",
+          "tags": [
+            "警察",
+            "命案"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 42,
+          "title": "#重大气象灾害暴雪四级应急响应#",
+          "heat": 68153,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%8D%E5%A4%A7%E6%B0%94%E8%B1%A1%E7%81%BE%E5%AE%B3%E6%9A%B4%E9%9B%AA%E5%9B%9B%E7%BA%A7%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94",
+          "domain": "gaming",
+          "tags": [
+            "暴雪"
+          ],
+          "isNew": false,
+          "delta": -22
+        },
+        {
+          "rank": 43,
+          "title": "#雨果1比3维东斯霍特#",
+          "heat": 68142,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E9%9B%A8%E6%9E%9C1%E6%AF%943%E7%BB%B4%E4%B8%9C%E6%96%AF%E9%9C%8D%E7%89%B9",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 44,
+          "title": "曾沛慈看孙燕姿演唱会点歌",
+          "heat": 68087,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E7%9C%8B%E5%AD%99%E7%87%95%E5%A7%BF%E6%BC%94%E5%94%B1%E4%BC%9A%E7%82%B9%E6%AD%8C",
+          "domain": "music",
+          "tags": [
+            "演唱会"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 45,
+          "title": "F1巴西大奖赛",
+          "heat": 68074,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=F1%E5%B7%B4%E8%A5%BF%E5%A4%A7%E5%A5%96%E8%B5%9B",
+          "domain": "sports",
+          "tags": [
+            "f1"
+          ],
+          "isNew": false,
+          "delta": 3
+        },
+        {
+          "rank": 46,
+          "title": "#马天宇没去的剧疑似是陈情令#",
+          "heat": 68017,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%B2%A1%E5%8E%BB%E7%9A%84%E5%89%A7%E7%96%91%E4%BC%BC%E6%98%AF%E9%99%88%E6%83%85%E4%BB%A4",
+          "domain": "celebrity",
+          "tags": [
+            "疑似"
+          ],
+          "isNew": false,
+          "delta": -9
+        },
+        {
+          "rank": 47,
+          "title": "#天霸老板解释为什么换下白小纯#",
+          "heat": 67995,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E9%9C%B8%E8%80%81%E6%9D%BF%E8%A7%A3%E9%87%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8D%A2%E4%B8%8B%E7%99%BD%E5%B0%8F%E7%BA%AF",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -28
+        },
+        {
+          "rank": 48,
+          "title": "#Keria喊话Canna#",
+          "heat": 67941,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=Keria%E5%96%8A%E8%AF%9DCanna",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 49,
+          "title": "#王子璇把文吉儿的两头退路都堵死了#",
+          "heat": 67925,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AD%90%E7%92%87%E6%8A%8A%E6%96%87%E5%90%89%E5%84%BF%E7%9A%84%E4%B8%A4%E5%A4%B4%E9%80%80%E8%B7%AF%E9%83%BD%E5%A0%B5%E6%AD%BB%E4%BA%86",
+          "domain": "celebrity",
+          "tags": [
+            "王子璇",
+            "文吉儿"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 50,
+          "title": "华为连续三年拍金鸡百花宣传片",
+          "heat": 67901,
+          "heatText": "6.8万",
+          "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E8%BF%9E%E7%BB%AD%E4%B8%89%E5%B9%B4%E6%8B%8D%E9%87%91%E9%B8%A1%E7%99%BE%E8%8A%B1%E5%AE%A3%E4%BC%A0%E7%89%87",
+          "domain": "tech",
+          "tags": [
+            "华为"
+          ],
+          "isNew": false,
+          "delta": -14
+        }
+      ]
+    },
+    "douyin": {
+      "id": "douyin",
+      "label": "抖音",
+      "en": "DOUYIN",
+      "feed": "热点榜",
+      "color": "#2ff3e0",
+      "status": {
+        "count": 0,
+        "ok": false,
+        "error": "抓取超时",
+        "note": "",
+        "topDomain": null,
+        "topDomainLabel": ""
+      },
+      "items": []
+    },
+    "x": {
+      "id": "x",
+      "label": "X",
+      "en": "X TRENDS",
+      "feed": "全球趋势",
+      "color": "#f3f1ea",
+      "status": {
+        "count": 0,
+        "ok": false,
+        "error": "网络请求失败",
+        "note": "",
+        "topDomain": null,
+        "topDomainLabel": ""
+      },
+      "items": []
+    }
+  }
+}
