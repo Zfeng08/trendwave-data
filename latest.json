@@ -1,103 +1,91 @@
 {
   "schema": "trendwave.snapshot.v1",
-  "exportedAt": "2026-11-20T03:02:07.429Z",
-  "id": "1732904e-a246-44e7-9d0a-039c5906defd",
-  "slot": "2026-11-20T11:00+08:00",
-  "capturedAt": "2026-11-20T03:02:06.005+00:00",
-  "summary": "本轮共存档 126 条热搜：微博 50 条、抖音 50 条、X 26 条。「娱乐明星」以 16 条居首，时政国际（11）与财经商业（9）紧随其后。跨平台共振集中在「马斯克」「特朗普」「黄金」等 6 组议题。新上榜 40 条，其中「#国家领导人双边会晤#」在微博升至第 1 位。微博的重心在娱乐明星，抖音的重心在生活万象，X 的重心在其他。",
+  "exportedAt": "2026-11-20T04:02:08.517Z",
+  "id": "72739678-1691-4cf4-9239-c63320d24281",
+  "slot": "2026-11-20T12:00+08:00",
+  "capturedAt": "2026-11-20T04:02:07.398+00:00",
+  "summary": "本轮共存档 124 条热搜：微博 50 条、抖音 49 条、X 25 条。「娱乐明星」以 12 条居首，时政国际（10）与财经商业（8）紧随其后。跨平台共振集中在「特朗普」「apec」「普京」等 6 组议题。新上榜 33 条，其中「#香るおむすび新旋風」在X升至第 1 位。微博的重心在娱乐明星，抖音的重心在生活万象，X 的重心在其他。",
   "stats": {
-    "total": 126,
+    "total": 124,
     "topNew": [
       {
         "rank": 1,
-        "title": "#国家领导人双边会晤#",
+        "title": "#香るおむすび新旋風",
+        "domain": "other",
+        "platform": "x"
+      },
+      {
+        "rank": 3,
+        "title": "#这是APEC互联互通蓝图#",
+        "domain": "other",
+        "platform": "weibo"
+      },
+      {
+        "rank": 4,
+        "title": "#特朗普给中俄美元首会晤打12分#",
         "domain": "politics",
         "platform": "weibo"
       },
       {
-        "rank": 3,
-        "title": "#2026APEC东道主成果清单#",
-        "domain": "other",
+        "rank": 5,
+        "title": "小米18",
+        "domain": "tech",
         "platform": "weibo"
       },
       {
-        "rank": 3,
-        "title": "世界目光聚焦APEC",
-        "domain": "other",
-        "platform": "douyin"
-      },
-      {
-        "rank": 4,
-        "title": "#杨瀚森对阵雄鹿首节登场#",
+        "rank": 6,
+        "title": "#刘琳全程脱稿配音俄语#",
         "domain": "other",
         "platform": "weibo"
-      },
-      {
-        "rank": 4,
-        "title": "Colts",
-        "domain": "other",
-        "platform": "x"
       }
     ],
     "domains": [
       {
         "id": "other",
         "color": "#8b8f96",
-        "count": 63,
+        "count": 69,
         "label": "其他",
-        "share": 50,
+        "share": 55.6,
         "platforms": {
-          "x": 26,
-          "weibo": 11,
+          "x": 25,
+          "weibo": 18,
           "douyin": 26
         }
       },
       {
         "id": "celebrity",
         "color": "#f27ea9",
-        "count": 16,
+        "count": 12,
         "label": "娱乐明星",
-        "share": 12.7,
+        "share": 9.7,
         "platforms": {
           "x": 0,
-          "weibo": 12,
+          "weibo": 8,
           "douyin": 4
         }
       },
       {
         "id": "politics",
         "color": "#e8634a",
-        "count": 11,
+        "count": 10,
         "label": "时政国际",
-        "share": 8.7,
+        "share": 8.1,
         "platforms": {
           "x": 0,
-          "weibo": 7,
+          "weibo": 6,
           "douyin": 4
         }
       },
       {
         "id": "business",
         "color": "#d9c56a",
-        "count": 9,
+        "count": 8,
         "label": "财经商业",
-        "share": 7.1,
+        "share": 6.5,
         "platforms": {
           "x": 0,
-          "weibo": 7,
+          "weibo": 6,
           "douyin": 2
-        }
-      },
-      {
-        "id": "tech",
-        "color": "#4ec5f1",
-        "count": 7,
-        "label": "科技数码",
-        "share": 5.6,
-        "platforms": {
-          "x": 0,
-          "weibo": 4,
-          "douyin": 3
         }
       },
       {
@@ -113,15 +101,51 @@
         }
       },
       {
-        "id": "screen",
-        "color": "#b48cf2",
-        "count": 6,
-        "label": "影视综艺",
-        "share": 4.8,
+        "id": "tech",
+        "color": "#4ec5f1",
+        "count": 5,
+        "label": "科技数码",
+        "share": 4,
         "platforms": {
           "x": 0,
-          "weibo": 3,
+          "weibo": 4,
+          "douyin": 1
+        }
+      },
+      {
+        "id": "screen",
+        "color": "#b48cf2",
+        "count": 4,
+        "label": "影视综艺",
+        "share": 3.2,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
           "douyin": 3
+        }
+      },
+      {
+        "id": "sports",
+        "color": "#6fcf97",
+        "count": 3,
+        "label": "体育竞技",
+        "share": 2.4,
+        "platforms": {
+          "x": 0,
+          "weibo": 1,
+          "douyin": 2
+        }
+      },
+      {
+        "id": "society",
+        "color": "#f0b74e",
+        "count": 2,
+        "label": "社会民生",
+        "share": 1.6,
+        "platforms": {
+          "x": 0,
+          "weibo": 2,
+          "douyin": 0
         }
       },
       {
@@ -129,18 +153,6 @@
         "color": "#9d7bff",
         "count": 2,
         "label": "游戏电竞",
-        "share": 1.6,
-        "platforms": {
-          "x": 0,
-          "weibo": 1,
-          "douyin": 1
-        }
-      },
-      {
-        "id": "sports",
-        "color": "#6fcf97",
-        "count": 2,
-        "label": "体育竞技",
         "share": 1.6,
         "platforms": {
           "x": 0,
@@ -171,26 +183,14 @@
           "weibo": 1,
           "douyin": 0
         }
-      },
-      {
-        "id": "society",
-        "color": "#f0b74e",
-        "count": 1,
-        "label": "社会民生",
-        "share": 0.8,
-        "platforms": {
-          "x": 0,
-          "weibo": 1,
-          "douyin": 0
-        }
       }
     ],
-    "newCount": 40,
+    "newCount": 33,
     "platforms": {
       "x": {
         "ok": true,
         "note": "X 全球趋势 + 美国区补充（公开镜像）",
-        "count": 26,
+        "count": 25,
         "error": "",
         "topDomain": "other",
         "topDomainLabel": "其他"
@@ -206,7 +206,7 @@
       "douyin": {
         "ok": true,
         "note": "抖音热点榜公开接口",
-        "count": 50,
+        "count": 49,
         "error": "",
         "topDomain": "life",
         "topDomainLabel": "生活万象"
@@ -214,104 +214,104 @@
     },
     "resonance": [
       {
-        "score": 276,
-        "token": "马斯克",
-        "platforms": {
-          "weibo": {
-            "rank": 2,
-            "title": "#马斯克从深圳飞到了上海#",
-            "heatText": "74.7万"
-          },
-          "douyin": {
-            "rank": 8,
-            "title": "马斯克盛赞深圳非常酷",
-            "heatText": "931.7万"
-          }
-        }
-      },
-      {
-        "score": 267,
+        "score": 275,
         "token": "特朗普",
         "platforms": {
           "weibo": {
-            "rank": 19,
-            "title": "特朗普空军一号内部曝光",
-            "heatText": "33.5万"
+            "rank": 4,
+            "title": "#特朗普给中俄美元首会晤打12分#",
+            "heatText": "44.1万"
           },
           "douyin": {
-            "rank": 17,
+            "rank": 16,
             "title": "特朗普启程返美",
-            "heatText": "894.2万"
+            "heatText": "911.2万"
           }
         }
       },
       {
-        "score": 265,
-        "token": "黄金",
-        "platforms": {
-          "weibo": {
-            "rank": 11,
-            "title": "黄金",
-            "heatText": "34.7万"
-          },
-          "douyin": {
-            "rank": 11,
-            "title": "现货黄金跌破3600美元",
-            "heatText": "925.3万"
-          }
-        }
-      },
-      {
-        "score": 258,
+        "score": 268,
         "token": "apec",
         "platforms": {
           "weibo": {
-            "rank": 9,
-            "title": "#一图读懂APEC合作如何惠及百姓生活#",
-            "heatText": "35.0万"
+            "rank": 3,
+            "title": "#这是APEC互联互通蓝图#",
+            "heatText": "62.6万"
           },
           "douyin": {
             "rank": 3,
             "title": "世界目光聚焦APEC",
-            "heatText": "1109.0万"
+            "heatText": "1137.3万"
           }
         }
       },
       {
-        "score": 256,
+        "score": 268,
+        "token": "普京",
+        "platforms": {
+          "weibo": {
+            "rank": 8,
+            "title": "#特朗普称理解普京的愤怒#",
+            "heatText": "32.5万"
+          },
+          "douyin": {
+            "rank": 8,
+            "title": "普京用中文向APEC与会者致谢",
+            "heatText": "934.4万"
+          }
+        }
+      },
+      {
+        "score": 259,
+        "token": "黄金",
+        "platforms": {
+          "weibo": {
+            "rank": 24,
+            "title": "黄金",
+            "heatText": "24.0万"
+          },
+          "douyin": {
+            "rank": 11,
+            "title": "现货黄金跌破3600美元",
+            "heatText": "925.0万"
+          }
+        }
+      },
+      {
+        "score": 253,
         "token": "伊能静",
         "platforms": {
           "weibo": {
-            "rank": 18,
+            "rank": 25,
             "title": "#伊能静没来之前可给张泉灵委屈坏了#",
-            "heatText": "33.6万"
+            "heatText": "24.0万"
           },
           "douyin": {
-            "rank": 33,
+            "rank": 32,
             "title": "伊能静能不能常驻后会友期",
-            "heatText": "768.7万"
+            "heatText": "769.9万"
           }
         }
       },
       {
-        "score": 247,
+        "score": 238,
         "token": "两京十五",
         "platforms": {
           "weibo": {
-            "rank": 10,
-            "title": "两京十五日 轻喜剧",
-            "heatText": "34.8万"
+            "rank": 44,
+            "title": "#两京十五日片头#",
+            "heatText": "21.7万"
           },
           "douyin": {
-            "rank": 37,
-            "title": "两京十五日朱瞻基含泪赐死袁仲达",
-            "heatText": "767.2万"
+            "rank": 21,
+            "title": "两京十五日今日开播",
+            "heatText": "780.9万"
           }
         }
       }
     ],
     "deltaTotal": -2,
-    "previousTotal": 128
+    "previousTotal": 126
   },
   "platforms": {
     "weibo": {
@@ -331,36 +331,34 @@
       "items": [
         {
           "rank": 1,
-          "title": "#国家领导人双边会晤#",
-          "heat": 1047158,
-          "heatText": "104.7万",
-          "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%8C%E8%BE%B9%E4%BC%9A%E6%99%A4",
-          "domain": "politics",
-          "tags": [
-            "会晤"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 2,
           "title": "#马斯克从深圳飞到了上海#",
-          "heat": 747307,
-          "heatText": "74.7万",
+          "heat": 1091791,
+          "heatText": "109.2万",
           "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%BB%8E%E6%B7%B1%E5%9C%B3%E9%A3%9E%E5%88%B0%E4%BA%86%E4%B8%8A%E6%B5%B7",
           "domain": "tech",
           "tags": [
             "马斯克"
           ],
           "isNew": false,
-          "delta": 0
+          "delta": 1
+        },
+        {
+          "rank": 2,
+          "title": "#杨瀚森对阵雄鹿首节登场#",
+          "heat": 804953,
+          "heatText": "80.5万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E5%AF%B9%E9%98%B5%E9%9B%84%E9%B9%BF%E9%A6%96%E8%8A%82%E7%99%BB%E5%9C%BA",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 2
         },
         {
           "rank": 3,
-          "title": "#2026APEC东道主成果清单#",
-          "heat": 613150,
-          "heatText": "61.3万",
-          "url": "https://s.weibo.com/weibo?q=2026APEC%E4%B8%9C%E9%81%93%E4%B8%BB%E6%88%90%E6%9E%9C%E6%B8%85%E5%8D%95",
+          "title": "#这是APEC互联互通蓝图#",
+          "heat": 626216,
+          "heatText": "62.6万",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%98%AFAPEC%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%93%9D%E5%9B%BE",
           "domain": "other",
           "tags": [],
           "isNew": true,
@@ -368,20 +366,86 @@
         },
         {
           "rank": 4,
-          "title": "#杨瀚森对阵雄鹿首节登场#",
-          "heat": 357212,
-          "heatText": "35.7万",
-          "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E7%80%9A%E6%A3%AE%E5%AF%B9%E9%98%B5%E9%9B%84%E9%B9%BF%E9%A6%96%E8%8A%82%E7%99%BB%E5%9C%BA",
+          "title": "#特朗普给中俄美元首会晤打12分#",
+          "heat": 441104,
+          "heatText": "44.1万",
+          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%BB%99%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E6%89%9312%E5%88%86",
+          "domain": "politics",
+          "tags": [
+            "会晤",
+            "特朗普"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 5,
+          "title": "小米18",
+          "heat": 371379,
+          "heatText": "37.1万",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318",
+          "domain": "tech",
+          "tags": [
+            "小米"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 6,
+          "title": "#刘琳全程脱稿配音俄语#",
+          "heat": 365376,
+          "heatText": "36.5万",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%90%B3%E5%85%A8%E7%A8%8B%E8%84%B1%E7%A8%BF%E9%85%8D%E9%9F%B3%E4%BF%84%E8%AF%AD",
           "domain": "other",
           "tags": [],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 5,
+          "rank": 7,
+          "title": "#文吉儿自己淋雨也给王子璇撑伞#",
+          "heat": 365351,
+          "heatText": "36.5万",
+          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E8%87%AA%E5%B7%B1%E6%B7%8B%E9%9B%A8%E4%B9%9F%E7%BB%99%E7%8E%8B%E5%AD%90%E7%92%87%E6%92%91%E4%BC%9E",
+          "domain": "celebrity",
+          "tags": [
+            "王子璇",
+            "文吉儿"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 8,
+          "title": "#特朗普称理解普京的愤怒#",
+          "heat": 324613,
+          "heatText": "32.5万",
+          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E7%90%86%E8%A7%A3%E6%99%AE%E4%BA%AC%E7%9A%84%E6%84%A4%E6%80%92",
+          "domain": "politics",
+          "tags": [
+            "普京",
+            "特朗普"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 9,
+          "title": "#一图读懂APEC合作如何惠及百姓生活#",
+          "heat": 324373,
+          "heatText": "32.4万",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82APEC%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%83%A0%E5%8F%8A%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 10,
           "title": "#多所高校不向2027级研究生提供宿舍#",
-          "heat": 356488,
-          "heatText": "35.6万",
+          "heat": 323606,
+          "heatText": "32.4万",
           "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D",
           "domain": "education",
           "tags": [
@@ -390,187 +454,127 @@
             "研究生"
           ],
           "isNew": false,
-          "delta": 0
-        },
-        {
-          "rank": 6,
-          "title": "#后会友期观察室很严重的问题#",
-          "heat": 354713,
-          "heatText": "35.5万",
-          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A7%82%E5%AF%9F%E5%AE%A4%E5%BE%88%E4%B8%A5%E9%87%8D%E7%9A%84%E9%97%AE%E9%A2%98",
-          "domain": "screen",
-          "tags": [
-            "后会友期"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 7,
-          "title": "许飞真是巧思上长了个人",
-          "heat": 353141,
-          "heatText": "35.3万",
-          "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E7%9C%9F%E6%98%AF%E5%B7%A7%E6%80%9D%E4%B8%8A%E9%95%BF%E4%BA%86%E4%B8%AA%E4%BA%BA",
-          "domain": "celebrity",
-          "tags": [
-            "许飞"
-          ],
-          "isNew": false,
-          "delta": 40
-        },
-        {
-          "rank": 8,
-          "title": "#中俄美元首会晤富有成果#",
-          "heat": 352200,
-          "heatText": "35.2万",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%AF%8C%E6%9C%89%E6%88%90%E6%9E%9C",
-          "domain": "politics",
-          "tags": [
-            "会晤"
-          ],
-          "isNew": false,
-          "delta": -7
-        },
-        {
-          "rank": 9,
-          "title": "#一图读懂APEC合作如何惠及百姓生活#",
-          "heat": 349635,
-          "heatText": "35.0万",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82APEC%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%83%A0%E5%8F%8A%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 10,
-          "title": "两京十五日 轻喜剧",
-          "heat": 347893,
-          "heatText": "34.8万",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%20%E8%BD%BB%E5%96%9C%E5%89%A7",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -2
+          "delta": -5
         },
         {
           "rank": 11,
-          "title": "黄金",
-          "heat": 347077,
-          "heatText": "34.7万",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91",
-          "domain": "business",
-          "tags": [
-            "黄金"
-          ],
-          "isNew": false,
-          "delta": 0
-        },
-        {
-          "rank": 12,
           "title": "股市",
-          "heat": 345998,
-          "heatText": "34.6万",
+          "heat": 322333,
+          "heatText": "32.2万",
           "url": "https://s.weibo.com/weibo?q=%E8%82%A1%E5%B8%82",
           "domain": "business",
           "tags": [
             "股市"
           ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 13,
-          "title": "#张泉灵就像有人开团一秒跟了一样#",
-          "heat": 343660,
-          "heatText": "34.4万",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%B3%89%E7%81%B5%E5%B0%B1%E5%83%8F%E6%9C%89%E4%BA%BA%E5%BC%80%E5%9B%A2%E4%B8%80%E7%A7%92%E8%B7%9F%E4%BA%86%E4%B8%80%E6%A0%B7",
-          "domain": "other",
-          "tags": [],
           "isNew": false,
-          "delta": 0
+          "delta": 1
         },
         {
-          "rank": 14,
-          "title": "#李勒优大号自己弄回来了#",
-          "heat": 341670,
-          "heatText": "34.2万",
-          "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%E5%A4%A7%E5%8F%B7%E8%87%AA%E5%B7%B1%E5%BC%84%E5%9B%9E%E6%9D%A5%E4%BA%86",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 3
-        },
-        {
-          "rank": 15,
-          "title": "#Jennie现在走的路线有点太夸张#",
-          "heat": 339777,
-          "heatText": "34.0万",
-          "url": "https://s.weibo.com/weibo?q=Jennie%E7%8E%B0%E5%9C%A8%E8%B5%B0%E7%9A%84%E8%B7%AF%E7%BA%BF%E6%9C%89%E7%82%B9%E5%A4%AA%E5%A4%B8%E5%BC%A0",
-          "domain": "celebrity",
-          "tags": [
-            "jennie"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 16,
+          "rank": 12,
           "title": "#金价跌到7字头囤金人心态崩了#",
-          "heat": 338573,
-          "heatText": "33.9万",
+          "heat": 320891,
+          "heatText": "32.1万",
           "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E8%B7%8C%E5%88%B07%E5%AD%97%E5%A4%B4%E5%9B%A4%E9%87%91%E4%BA%BA%E5%BF%83%E6%80%81%E5%B4%A9%E4%BA%86",
           "domain": "business",
           "tags": [
             "金价"
           ],
+          "isNew": false,
+          "delta": 4
+        },
+        {
+          "rank": 13,
+          "title": "#国家领导人双边会晤#",
+          "heat": 320683,
+          "heatText": "32.1万",
+          "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%8F%8C%E8%BE%B9%E4%BC%9A%E6%99%A4",
+          "domain": "politics",
+          "tags": [
+            "会晤"
+          ],
+          "isNew": false,
+          "delta": -12
+        },
+        {
+          "rank": 14,
+          "title": "#文吉儿又让白小纯顺她去医院#",
+          "heat": 309971,
+          "heatText": "31.0万",
+          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%8F%88%E8%AE%A9%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%A1%BA%E5%A5%B9%E5%8E%BB%E5%8C%BB%E9%99%A2",
+          "domain": "celebrity",
+          "tags": [
+            "文吉儿"
+          ],
           "isNew": true,
           "delta": null
         },
         {
+          "rank": 15,
+          "title": "#李勒优大号自己弄回来了#",
+          "heat": 300474,
+          "heatText": "30.0万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%E5%A4%A7%E5%8F%B7%E8%87%AA%E5%B7%B1%E5%BC%84%E5%9B%9E%E6%9D%A5%E4%BA%86",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -1
+        },
+        {
+          "rank": 16,
+          "title": "#张泉灵就像有人开团一秒跟了一样#",
+          "heat": 281116,
+          "heatText": "28.1万",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%B3%89%E7%81%B5%E5%B0%B1%E5%83%8F%E6%9C%89%E4%BA%BA%E5%BC%80%E5%9B%A2%E4%B8%80%E7%A7%92%E8%B7%9F%E4%BA%86%E4%B8%80%E6%A0%B7",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -3
+        },
+        {
           "rank": 17,
+          "title": "#Jennie现在走的路线有点太夸张#",
+          "heat": 266587,
+          "heatText": "26.7万",
+          "url": "https://s.weibo.com/weibo?q=Jennie%E7%8E%B0%E5%9C%A8%E8%B5%B0%E7%9A%84%E8%B7%AF%E7%BA%BF%E6%9C%89%E7%82%B9%E5%A4%AA%E5%A4%B8%E5%BC%A0",
+          "domain": "celebrity",
+          "tags": [
+            "jennie"
+          ],
+          "isNew": false,
+          "delta": -2
+        },
+        {
+          "rank": 18,
           "title": "#同居生孩分手后男方起诉返还百万#",
-          "heat": 337942,
-          "heatText": "33.8万",
+          "heat": 254121,
+          "heatText": "25.4万",
           "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E5%B1%85%E7%94%9F%E5%AD%A9%E5%88%86%E6%89%8B%E5%90%8E%E7%94%B7%E6%96%B9%E8%B5%B7%E8%AF%89%E8%BF%94%E8%BF%98%E7%99%BE%E4%B8%87",
           "domain": "celebrity",
           "tags": [
             "分手"
           ],
           "isNew": false,
-          "delta": 18
-        },
-        {
-          "rank": 18,
-          "title": "#伊能静没来之前可给张泉灵委屈坏了#",
-          "heat": 336242,
-          "heatText": "33.6万",
-          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%E6%B2%A1%E6%9D%A5%E4%B9%8B%E5%89%8D%E5%8F%AF%E7%BB%99%E5%BC%A0%E6%B3%89%E7%81%B5%E5%A7%94%E5%B1%88%E5%9D%8F%E4%BA%86",
-          "domain": "celebrity",
-          "tags": [
-            "伊能静"
-          ],
-          "isNew": true,
-          "delta": null
+          "delta": -1
         },
         {
           "rank": 19,
-          "title": "特朗普空军一号内部曝光",
-          "heat": 334813,
-          "heatText": "33.5万",
-          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E5%86%85%E9%83%A8%E6%9B%9D%E5%85%89",
-          "domain": "politics",
+          "title": "#马天宇李明德名誉纠纷案已开庭#",
+          "heat": 247262,
+          "heatText": "24.7万",
+          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%9D%8E%E6%98%8E%E5%BE%B7%E5%90%8D%E8%AA%89%E7%BA%A0%E7%BA%B7%E6%A1%88%E5%B7%B2%E5%BC%80%E5%BA%AD",
+          "domain": "legal",
           "tags": [
-            "特朗普"
+            "开庭",
+            "纠纷"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 5
         },
         {
           "rank": 20,
           "title": "演员开演唱会 爱豆演戏",
-          "heat": 332516,
-          "heatText": "33.3万",
+          "heat": 246114,
+          "heatText": "24.6万",
           "url": "https://s.weibo.com/weibo?q=%E6%BC%94%E5%91%98%E5%BC%80%E6%BC%94%E5%94%B1%E4%BC%9A%20%E7%88%B1%E8%B1%86%E6%BC%94%E6%88%8F",
           "domain": "celebrity",
           "tags": [
@@ -578,126 +582,77 @@
             "演员"
           ],
           "isNew": false,
-          "delta": 4
+          "delta": 0
         },
         {
           "rank": 21,
-          "title": "Viper BLG",
-          "heat": 328587,
-          "heatText": "32.9万",
-          "url": "https://s.weibo.com/weibo?q=Viper%20BLG",
-          "domain": "gaming",
+          "title": "#沙特首都最高建筑遭胡塞武装袭击#",
+          "heat": 245437,
+          "heatText": "24.5万",
+          "url": "https://s.weibo.com/weibo?q=%E6%B2%99%E7%89%B9%E9%A6%96%E9%83%BD%E6%9C%80%E9%AB%98%E5%BB%BA%E7%AD%91%E9%81%AD%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E8%A2%AD%E5%87%BB",
+          "domain": "politics",
           "tags": [
-            "blg"
-          ],
-          "isNew": false,
-          "delta": -15
-        },
-        {
-          "rank": 22,
-          "title": "文吉儿帽子",
-          "heat": 319057,
-          "heatText": "31.9万",
-          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%B8%BD%E5%AD%90",
-          "domain": "celebrity",
-          "tags": [
-            "文吉儿"
-          ],
-          "isNew": false,
-          "delta": -13
-        },
-        {
-          "rank": 23,
-          "title": "#白小纯青稚听到现场喊纯稚的表情#",
-          "heat": 313485,
-          "heatText": "31.3万",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%9D%92%E7%A8%9A%E5%90%AC%E5%88%B0%E7%8E%B0%E5%9C%BA%E5%96%8A%E7%BA%AF%E7%A8%9A%E7%9A%84%E8%A1%A8%E6%83%85",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 8
-        },
-        {
-          "rank": 24,
-          "title": "#马天宇李明德名誉纠纷案已开庭#",
-          "heat": 312881,
-          "heatText": "31.3万",
-          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%9D%8E%E6%98%8E%E5%BE%B7%E5%90%8D%E8%AA%89%E7%BA%A0%E7%BA%B7%E6%A1%88%E5%B7%B2%E5%BC%80%E5%BA%AD",
-          "domain": "legal",
-          "tags": [
-            "开庭",
-            "纠纷"
+            "胡塞",
+            "沙特"
           ],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 25,
-          "title": "#李勒优房子是爷爷奶奶盖的#",
-          "heat": 304634,
-          "heatText": "30.5万",
-          "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%E6%88%BF%E5%AD%90%E6%98%AF%E7%88%B7%E7%88%B7%E5%A5%B6%E5%A5%B6%E7%9B%96%E7%9A%84",
+          "rank": 22,
+          "title": "#女子在浙江打4份工靠自己买房买车#",
+          "heat": 244378,
+          "heatText": "24.4万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%9C%A8%E6%B5%99%E6%B1%9F%E6%89%934%E4%BB%BD%E5%B7%A5%E9%9D%A0%E8%87%AA%E5%B7%B1%E4%B9%B0%E6%88%BF%E4%B9%B0%E8%BD%A6",
+          "domain": "society",
+          "tags": [
+            "女子"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 23,
+          "title": "#2026APEC东道主成果清单#",
+          "heat": 242408,
+          "heatText": "24.2万",
+          "url": "https://s.weibo.com/weibo?q=2026APEC%E4%B8%9C%E9%81%93%E4%B8%BB%E6%88%90%E6%9E%9C%E6%B8%85%E5%8D%95",
           "domain": "other",
           "tags": [],
+          "isNew": false,
+          "delta": -20
+        },
+        {
+          "rank": 24,
+          "title": "黄金",
+          "heat": 240481,
+          "heatText": "24.0万",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91",
+          "domain": "business",
+          "tags": [
+            "黄金"
+          ],
           "isNew": false,
           "delta": -13
         },
         {
-          "rank": 26,
-          "title": "#伊能静一眼看破所有嘉宾#",
-          "heat": 302993,
-          "heatText": "30.3万",
-          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%E4%B8%80%E7%9C%BC%E7%9C%8B%E7%A0%B4%E6%89%80%E6%9C%89%E5%98%89%E5%AE%BE",
+          "rank": 25,
+          "title": "#伊能静没来之前可给张泉灵委屈坏了#",
+          "heat": 240324,
+          "heatText": "24.0万",
+          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%E6%B2%A1%E6%9D%A5%E4%B9%8B%E5%89%8D%E5%8F%AF%E7%BB%99%E5%BC%A0%E6%B3%89%E7%81%B5%E5%A7%94%E5%B1%88%E5%9D%8F%E4%BA%86",
           "domain": "celebrity",
           "tags": [
             "伊能静"
           ],
           "isNew": false,
-          "delta": -4
+          "delta": -7
         },
         {
-          "rank": 27,
-          "title": "长期心情不好真的会改变一个人",
-          "heat": 290529,
-          "heatText": "29.1万",
-          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%9C%9F%E5%BF%83%E6%83%85%E4%B8%8D%E5%A5%BD%E7%9C%9F%E7%9A%84%E4%BC%9A%E6%94%B9%E5%8F%98%E4%B8%80%E4%B8%AA%E4%BA%BA",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -4
-        },
-        {
-          "rank": 28,
-          "title": "#特朗普离开深圳前与王毅面谈#",
-          "heat": 273440,
-          "heatText": "27.3万",
-          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A6%BB%E5%BC%80%E6%B7%B1%E5%9C%B3%E5%89%8D%E4%B8%8E%E7%8E%8B%E6%AF%85%E9%9D%A2%E8%B0%88",
-          "domain": "politics",
-          "tags": [
-            "特朗普"
-          ],
-          "isNew": false,
-          "delta": -24
-        },
-        {
-          "rank": 29,
-          "title": "金价大跌后市预期分歧",
-          "heat": 259727,
-          "heatText": "26.0万",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C%E5%90%8E%E5%B8%82%E9%A2%84%E6%9C%9F%E5%88%86%E6%AD%A7",
-          "domain": "business",
-          "tags": [
-            "大跌",
-            "金价"
-          ],
-          "isNew": false,
-          "delta": -13
-        },
-        {
-          "rank": 30,
+          "rank": 26,
           "title": "#女儿蛋糕放钱妈妈当众塞给儿媳#",
-          "heat": 258711,
-          "heatText": "25.9万",
+          "heat": 238670,
+          "heatText": "23.9万",
           "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%84%BF%E8%9B%8B%E7%B3%95%E6%94%BE%E9%92%B1%E5%A6%88%E5%A6%88%E5%BD%93%E4%BC%97%E5%A1%9E%E7%BB%99%E5%84%BF%E5%AA%B3",
           "domain": "life",
           "tags": [
@@ -705,266 +660,296 @@
             "妈妈"
           ],
           "isNew": false,
-          "delta": -1
+          "delta": 4
         },
         {
-          "rank": 31,
-          "title": "#中俄美元首会晤持续约90分钟#",
-          "heat": 249362,
-          "heatText": "24.9万",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E6%8C%81%E7%BB%AD%E7%BA%A690%E5%88%86%E9%92%9F",
-          "domain": "sports",
+          "rank": 27,
+          "title": "#后会友期观察室很严重的问题#",
+          "heat": 237081,
+          "heatText": "23.7万",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E8%A7%82%E5%AF%9F%E5%AE%A4%E5%BE%88%E4%B8%A5%E9%87%8D%E7%9A%84%E9%97%AE%E9%A2%98",
+          "domain": "screen",
           "tags": [
-            "续约"
+            "后会友期"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": -21
         },
         {
-          "rank": 32,
-          "title": "#特朗普从中国返美途中发帖#",
-          "heat": 243897,
-          "heatText": "24.4万",
-          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E4%BB%8E%E4%B8%AD%E5%9B%BD%E8%BF%94%E7%BE%8E%E9%80%94%E4%B8%AD%E5%8F%91%E5%B8%96",
+          "rank": 28,
+          "title": "特朗普空军一号内部曝光",
+          "heat": 235936,
+          "heatText": "23.6万",
+          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E5%86%85%E9%83%A8%E6%9B%9D%E5%85%89",
           "domain": "politics",
           "tags": [
             "特朗普"
           ],
+          "isNew": false,
+          "delta": -9
+        },
+        {
+          "rank": 29,
+          "title": "Viper BLG",
+          "heat": 234456,
+          "heatText": "23.4万",
+          "url": "https://s.weibo.com/weibo?q=Viper%20BLG",
+          "domain": "gaming",
+          "tags": [
+            "blg"
+          ],
+          "isNew": false,
+          "delta": -8
+        },
+        {
+          "rank": 30,
+          "title": "#李勒优房子晋妈仅添砂石水泥#",
+          "heat": 233564,
+          "heatText": "23.4万",
+          "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%E6%88%BF%E5%AD%90%E6%99%8B%E5%A6%88%E4%BB%85%E6%B7%BB%E7%A0%82%E7%9F%B3%E6%B0%B4%E6%B3%A5",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 31,
+          "title": "#白小纯青稚听到现场喊纯稚的表情#",
+          "heat": 233353,
+          "heatText": "23.3万",
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%9D%92%E7%A8%9A%E5%90%AC%E5%88%B0%E7%8E%B0%E5%9C%BA%E5%96%8A%E7%BA%AF%E7%A8%9A%E7%9A%84%E8%A1%A8%E6%83%85",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -8
+        },
+        {
+          "rank": 32,
+          "title": "时代少年团杂志",
+          "heat": 233249,
+          "heatText": "23.3万",
+          "url": "https://s.weibo.com/weibo?q=%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E6%9D%82%E5%BF%97",
+          "domain": "other",
+          "tags": [],
           "isNew": true,
           "delta": null
         },
         {
           "rank": 33,
-          "title": "#特朗普车窗又没拉帘#",
-          "heat": 236560,
-          "heatText": "23.7万",
-          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%BD%A6%E7%AA%97%E5%8F%88%E6%B2%A1%E6%8B%89%E5%B8%98",
-          "domain": "politics",
+          "title": "王楚钦登上海外时尚运动杂志封面",
+          "heat": 232404,
+          "heatText": "23.2万",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%E7%99%BB%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%97%B6%E5%B0%9A%E8%BF%90%E5%8A%A8%E6%9D%82%E5%BF%97%E5%B0%81%E9%9D%A2",
+          "domain": "sports",
           "tags": [
-            "特朗普"
+            "王楚钦"
           ],
           "isNew": true,
           "delta": null
         },
         {
           "rank": 34,
-          "title": "爸爸掉水里先吃苹果还是香蕉",
-          "heat": 232050,
+          "title": "#特朗普从中国返美途中发帖#",
+          "heat": 232081,
           "heatText": "23.2万",
+          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E4%BB%8E%E4%B8%AD%E5%9B%BD%E8%BF%94%E7%BE%8E%E9%80%94%E4%B8%AD%E5%8F%91%E5%B8%96",
+          "domain": "politics",
+          "tags": [
+            "特朗普"
+          ],
+          "isNew": false,
+          "delta": -2
+        },
+        {
+          "rank": 35,
+          "title": "爸爸掉水里先吃苹果还是香蕉",
+          "heat": 228538,
+          "heatText": "22.9万",
           "url": "https://s.weibo.com/weibo?q=%E7%88%B8%E7%88%B8%E6%8E%89%E6%B0%B4%E9%87%8C%E5%85%88%E5%90%83%E8%8B%B9%E6%9E%9C%E8%BF%98%E6%98%AF%E9%A6%99%E8%95%89",
           "domain": "tech",
           "tags": [
             "苹果"
           ],
           "isNew": false,
-          "delta": -8
-        },
-        {
-          "rank": 35,
-          "title": "#有观众举报后会友期#",
-          "heat": 226142,
-          "heatText": "22.6万",
-          "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E8%A7%82%E4%BC%97%E4%B8%BE%E6%8A%A5%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
-          "domain": "screen",
-          "tags": [
-            "观众",
-            "后会友期"
-          ],
-          "isNew": false,
-          "delta": -20
+          "delta": -1
         },
         {
           "rank": 36,
-          "title": "#苏林和夫人抵达昆明现场视频#",
-          "heat": 217117,
-          "heatText": "21.7万",
-          "url": "https://s.weibo.com/weibo?q=%E8%8B%8F%E6%9E%97%E5%92%8C%E5%A4%AB%E4%BA%BA%E6%8A%B5%E8%BE%BE%E6%98%86%E6%98%8E%E7%8E%B0%E5%9C%BA%E8%A7%86%E9%A2%91",
+          "title": "长期心情不好真的会改变一个人",
+          "heat": 220616,
+          "heatText": "22.1万",
+          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%9C%9F%E5%BF%83%E6%83%85%E4%B8%8D%E5%A5%BD%E7%9C%9F%E7%9A%84%E4%BC%9A%E6%94%B9%E5%8F%98%E4%B8%80%E4%B8%AA%E4%BA%BA",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -9
+        },
+        {
+          "rank": 37,
+          "title": "#伊能静一眼看破所有嘉宾#",
+          "heat": 220227,
+          "heatText": "22.0万",
+          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E8%83%BD%E9%9D%99%E4%B8%80%E7%9C%BC%E7%9C%8B%E7%A0%B4%E6%89%80%E6%9C%89%E5%98%89%E5%AE%BE",
+          "domain": "celebrity",
+          "tags": [
+            "伊能静"
+          ],
+          "isNew": false,
+          "delta": -11
+        },
+        {
+          "rank": 38,
+          "title": "#小鹏行业首发VLA人驾版#",
+          "heat": 219673,
+          "heatText": "22.0万",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E9%B9%8F%E8%A1%8C%E4%B8%9A%E9%A6%96%E5%8F%91VLA%E4%BA%BA%E9%A9%BE%E7%89%88",
+          "domain": "tech",
+          "tags": [
+            "小鹏"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 39,
+          "title": "#这年头不是文盲当不了男女主#",
+          "heat": 219214,
+          "heatText": "21.9万",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E5%B9%B4%E5%A4%B4%E4%B8%8D%E6%98%AF%E6%96%87%E7%9B%B2%E5%BD%93%E4%B8%8D%E4%BA%86%E7%94%B7%E5%A5%B3%E4%B8%BB",
           "domain": "other",
           "tags": [],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 37,
-          "title": "#泰总理路过深圳南头古城摄影馆驻足#",
-          "heat": 215692,
-          "heatText": "21.6万",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E6%80%BB%E7%90%86%E8%B7%AF%E8%BF%87%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E6%91%84%E5%BD%B1%E9%A6%86%E9%A9%BB%E8%B6%B3",
-          "domain": "politics",
-          "tags": [
-            "总理"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 38,
-          "title": "#赵丽颖合影被拉到C位#",
-          "heat": 214548,
-          "heatText": "21.5万",
-          "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E4%B8%BD%E9%A2%96%E5%90%88%E5%BD%B1%E8%A2%AB%E6%8B%89%E5%88%B0C%E4%BD%8D",
-          "domain": "celebrity",
-          "tags": [
-            "合影",
-            "赵丽颖"
-          ],
-          "isNew": false,
-          "delta": -13
-        },
-        {
-          "rank": 39,
-          "title": "#成毅新剧15天返岗DDL#",
-          "heat": 213779,
-          "heatText": "21.4万",
-          "url": "https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%E6%96%B0%E5%89%A715%E5%A4%A9%E8%BF%94%E5%B2%97DDL",
-          "domain": "screen",
-          "tags": [
-            "新剧"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
           "rank": 40,
-          "title": "#苗苗怀二胎身材走样锻炼时被郑恺逗了一下#",
-          "heat": 213693,
-          "heatText": "21.4万",
-          "url": "https://s.weibo.com/weibo?q=%E8%8B%97%E8%8B%97%E6%80%80%E4%BA%8C%E8%83%8E%E8%BA%AB%E6%9D%90%E8%B5%B0%E6%A0%B7%E9%94%BB%E7%82%BC%E6%97%B6%E8%A2%AB%E9%83%91%E6%81%BA%E9%80%97%E4%BA%86%E4%B8%80%E4%B8%8B",
-          "domain": "celebrity",
+          "title": "#金价暴跌商家发声#",
+          "heat": 218589,
+          "heatText": "21.9万",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E6%9A%B4%E8%B7%8C%E5%95%86%E5%AE%B6%E5%8F%91%E5%A3%B0",
+          "domain": "business",
           "tags": [
-            "二胎",
-            "身材"
+            "金价"
           ],
-          "isNew": false,
-          "delta": -19
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 41,
-          "title": "#马斯克专程飞上海原因#",
-          "heat": 198208,
-          "heatText": "19.8万",
-          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%B8%93%E7%A8%8B%E9%A3%9E%E4%B8%8A%E6%B5%B7%E5%8E%9F%E5%9B%A0",
-          "domain": "tech",
+          "title": "#金店老板称金价跌回500不可能#",
+          "heat": 218538,
+          "heatText": "21.9万",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E5%BA%97%E8%80%81%E6%9D%BF%E7%A7%B0%E9%87%91%E4%BB%B7%E8%B7%8C%E5%9B%9E500%E4%B8%8D%E5%8F%AF%E8%83%BD",
+          "domain": "business",
           "tags": [
-            "马斯克"
+            "金价"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 5
         },
         {
           "rank": 42,
-          "title": "文吉儿圈内好友没提王子璇",
-          "heat": 197224,
-          "heatText": "19.7万",
-          "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%9C%88%E5%86%85%E5%A5%BD%E5%8F%8B%E6%B2%A1%E6%8F%90%E7%8E%8B%E5%AD%90%E7%92%87",
-          "domain": "celebrity",
-          "tags": [
-            "王子璇",
-            "文吉儿"
-          ],
-          "isNew": false,
-          "delta": -15
-        },
-        {
-          "rank": 43,
-          "title": "#曹翠芬回应赵丽颖王仁君#",
-          "heat": 179311,
-          "heatText": "17.9万",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%B9%E7%BF%A0%E8%8A%AC%E5%9B%9E%E5%BA%94%E8%B5%B5%E4%B8%BD%E9%A2%96%E7%8E%8B%E4%BB%81%E5%90%9B",
-          "domain": "celebrity",
-          "tags": [
-            "赵丽颖"
-          ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 44,
           "title": "#女子打4份工养家月入3万多元#",
-          "heat": 166455,
-          "heatText": "16.6万",
+          "heat": 217709,
+          "heatText": "21.8万",
           "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%89%934%E4%BB%BD%E5%B7%A5%E5%85%BB%E5%AE%B6%E6%9C%88%E5%85%A53%E4%B8%87%E5%A4%9A%E5%85%83",
           "domain": "society",
           "tags": [
             "女子"
           ],
           "isNew": false,
-          "delta": -14
+          "delta": 2
+        },
+        {
+          "rank": 43,
+          "title": "#外国游客扎堆深圳批发市场扫货#",
+          "heat": 217102,
+          "heatText": "21.7万",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E6%B8%B8%E5%AE%A2%E6%89%8E%E5%A0%86%E6%B7%B1%E5%9C%B3%E6%89%B9%E5%8F%91%E5%B8%82%E5%9C%BA%E6%89%AB%E8%B4%A7",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 44,
+          "title": "#两京十五日片头#",
+          "heat": 216837,
+          "heatText": "21.7万",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E7%89%87%E5%A4%B4",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 45,
-          "title": "#崔晋风波后首更博#",
-          "heat": 166334,
-          "heatText": "16.6万",
-          "url": "https://s.weibo.com/weibo?q=%E5%B4%94%E6%99%8B%E9%A3%8E%E6%B3%A2%E5%90%8E%E9%A6%96%E6%9B%B4%E5%8D%9A",
+          "title": "#儿子将满18岁消失17年的父亲来求赡养#",
+          "heat": 216386,
+          "heatText": "21.6万",
+          "url": "https://s.weibo.com/weibo?q=%E5%84%BF%E5%AD%90%E5%B0%86%E6%BB%A118%E5%B2%81%E6%B6%88%E5%A4%B117%E5%B9%B4%E7%9A%84%E7%88%B6%E4%BA%B2%E6%9D%A5%E6%B1%82%E8%B5%A1%E5%85%BB",
           "domain": "other",
           "tags": [],
-          "isNew": false,
-          "delta": -12
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 46,
-          "title": "#金店老板称金价跌回500不可能#",
-          "heat": 165300,
-          "heatText": "16.5万",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E5%BA%97%E8%80%81%E6%9D%BF%E7%A7%B0%E9%87%91%E4%BB%B7%E8%B7%8C%E5%9B%9E500%E4%B8%8D%E5%8F%AF%E8%83%BD",
-          "domain": "business",
-          "tags": [
-            "金价"
-          ],
+          "title": "#慢阻肺治疗不再是喘了才治#",
+          "heat": 215904,
+          "heatText": "21.6万",
+          "url": "https://s.weibo.com/weibo?q=%E6%85%A2%E9%98%BB%E8%82%BA%E6%B2%BB%E7%96%97%E4%B8%8D%E5%86%8D%E6%98%AF%E5%96%98%E4%BA%86%E6%89%8D%E6%B2%BB",
+          "domain": "other",
+          "tags": [],
           "isNew": true,
           "delta": null
         },
         {
           "rank": 47,
-          "title": "#苗苗是舞蹈演员对体态要求高#",
-          "heat": 164844,
-          "heatText": "16.5万",
-          "url": "https://s.weibo.com/weibo?q=%E8%8B%97%E8%8B%97%E6%98%AF%E8%88%9E%E8%B9%88%E6%BC%94%E5%91%98%E5%AF%B9%E4%BD%93%E6%80%81%E8%A6%81%E6%B1%82%E9%AB%98",
+          "title": "许飞真是巧思上长了个人",
+          "heat": 214965,
+          "heatText": "21.5万",
+          "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E7%9C%9F%E6%98%AF%E5%B7%A7%E6%80%9D%E4%B8%8A%E9%95%BF%E4%BA%86%E4%B8%AA%E4%BA%BA",
           "domain": "celebrity",
           "tags": [
-            "演员"
+            "许飞"
           ],
           "isNew": false,
-          "delta": -6
+          "delta": -40
         },
         {
           "rank": 48,
-          "title": "A股开盘仅97家上涨",
-          "heat": 158120,
-          "heatText": "15.8万",
-          "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E5%BC%80%E7%9B%98%E4%BB%8597%E5%AE%B6%E4%B8%8A%E6%B6%A8",
+          "title": "金价大跌后市预期分歧",
+          "heat": 214436,
+          "heatText": "21.4万",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C%E5%90%8E%E5%B8%82%E9%A2%84%E6%9C%9F%E5%88%86%E6%AD%A7",
           "domain": "business",
           "tags": [
-            "a股",
-            "开盘"
+            "大跌",
+            "金价"
           ],
+          "isNew": false,
+          "delta": -19
+        },
+        {
+          "rank": 49,
+          "title": "#田栩宁费加罗异次元悬疑大片#",
+          "heat": 214326,
+          "heatText": "21.4万",
+          "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%A0%A9%E5%AE%81%E8%B4%B9%E5%8A%A0%E7%BD%97%E5%BC%82%E6%AC%A1%E5%85%83%E6%82%AC%E7%96%91%E5%A4%A7%E7%89%87",
+          "domain": "other",
+          "tags": [],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 49,
-          "title": "AMD",
-          "heat": 140207,
-          "heatText": "14.0万",
-          "url": "https://s.weibo.com/weibo?q=AMD",
-          "domain": "tech",
-          "tags": [
-            "amd"
-          ],
-          "isNew": false,
-          "delta": -31
-        },
-        {
           "rank": 50,
-          "title": "#高盛再下调金价预测#",
-          "heat": 134795,
-          "heatText": "13.5万",
-          "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E7%9B%9B%E5%86%8D%E4%B8%8B%E8%B0%83%E9%87%91%E4%BB%B7%E9%A2%84%E6%B5%8B",
-          "domain": "business",
-          "tags": [
-            "金价"
-          ],
+          "title": "#空军一号连续飞行超14小时#",
+          "heat": 213519,
+          "heatText": "21.4万",
+          "url": "https://s.weibo.com/weibo?q=%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E8%BF%9E%E7%BB%AD%E9%A3%9E%E8%A1%8C%E8%B6%8514%E5%B0%8F%E6%97%B6",
+          "domain": "other",
+          "tags": [],
           "isNew": true,
           "delta": null
         }
@@ -977,7 +962,7 @@
       "feed": "热点榜",
       "color": "#2ff3e0",
       "status": {
-        "count": 50,
+        "count": 49,
         "ok": true,
         "error": "",
         "note": "抖音热点榜公开接口",
@@ -988,220 +973,220 @@
         {
           "rank": 1,
           "title": "中俄美元首和平宣言",
-          "heat": 12039509,
-          "heatText": "1204.0万",
+          "heat": 12086591,
+          "heatText": "1208.7万",
           "url": "https://www.douyin.com/search/%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%92%8C%E5%B9%B3%E5%AE%A3%E8%A8%80",
           "domain": "business",
           "tags": [
             "美元"
           ],
           "isNew": false,
-          "delta": 3
+          "delta": 0
         },
         {
           "rank": 2,
           "title": "U17男足首战对阵西班牙",
-          "heat": 12025659,
-          "heatText": "1202.6万",
+          "heat": 11812458,
+          "heatText": "1181.2万",
           "url": "https://www.douyin.com/search/U17%E7%94%B7%E8%B6%B3%E9%A6%96%E6%88%98%E5%AF%B9%E9%98%B5%E8%A5%BF%E7%8F%AD%E7%89%99",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 4
+          "delta": 0
         },
         {
           "rank": 3,
           "title": "世界目光聚焦APEC",
-          "heat": 11090228,
-          "heatText": "1109.0万",
+          "heat": 11373301,
+          "heatText": "1137.3万",
           "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E7%9B%AE%E5%85%89%E8%81%9A%E7%84%A6APEC",
           "domain": "other",
           "tags": [],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 0
         },
         {
           "rank": 4,
           "title": "APEC外宾游深圳邂逅地道美食",
-          "heat": 11070082,
-          "heatText": "1107.0万",
+          "heat": 11047088,
+          "heatText": "1104.7万",
           "url": "https://www.douyin.com/search/APEC%E5%A4%96%E5%AE%BE%E6%B8%B8%E6%B7%B1%E5%9C%B3%E9%82%82%E9%80%85%E5%9C%B0%E9%81%93%E7%BE%8E%E9%A3%9F",
           "domain": "life",
           "tags": [
             "美食"
           ],
           "isNew": false,
-          "delta": 1
+          "delta": 0
         },
         {
           "rank": 5,
           "title": "李在明发文感谢中国热情接待",
-          "heat": 10495710,
-          "heatText": "1049.6万",
+          "heat": 10487766,
+          "heatText": "1048.8万",
           "url": "https://www.douyin.com/search/%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%8F%91%E6%96%87%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD%E7%83%AD%E6%83%85%E6%8E%A5%E5%BE%85",
           "domain": "politics",
           "tags": [
             "李在明"
           ],
           "isNew": false,
-          "delta": 3
+          "delta": 0
         },
         {
           "rank": 6,
           "title": "APEC会议围巾的中国式浪漫",
-          "heat": 10490007,
-          "heatText": "1049.0万",
+          "heat": 10455434,
+          "heatText": "1045.5万",
           "url": "https://www.douyin.com/search/APEC%E4%BC%9A%E8%AE%AE%E5%9B%B4%E5%B7%BE%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%BC%8F%E6%B5%AA%E6%BC%AB",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 8
+          "delta": 0
         },
         {
           "rank": 7,
           "title": "APEC晚宴荔枝冰酒厂家回应",
-          "heat": 9345301,
-          "heatText": "934.5万",
+          "heat": 9349673,
+          "heatText": "935.0万",
           "url": "https://www.douyin.com/search/APEC%E6%99%9A%E5%AE%B4%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E5%8E%82%E5%AE%B6%E5%9B%9E%E5%BA%94",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -5
+          "delta": 0
         },
         {
           "rank": 8,
-          "title": "马斯克盛赞深圳非常酷",
-          "heat": 9317331,
-          "heatText": "931.7万",
-          "url": "https://www.douyin.com/search/%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9B%9B%E8%B5%9E%E6%B7%B1%E5%9C%B3%E9%9D%9E%E5%B8%B8%E9%85%B7",
-          "domain": "tech",
+          "title": "普京用中文向APEC与会者致谢",
+          "heat": 9344434,
+          "heatText": "934.4万",
+          "url": "https://www.douyin.com/search/%E6%99%AE%E4%BA%AC%E7%94%A8%E4%B8%AD%E6%96%87%E5%90%91APEC%E4%B8%8E%E4%BC%9A%E8%80%85%E8%87%B4%E8%B0%A2",
+          "domain": "politics",
           "tags": [
-            "马斯克"
+            "普京"
           ],
           "isNew": false,
-          "delta": -1
+          "delta": 11
         },
         {
           "rank": 9,
           "title": "一组对比照片看深圳沧海桑田",
-          "heat": 9265566,
-          "heatText": "926.6万",
+          "heat": 9253891,
+          "heatText": "925.4万",
           "url": "https://www.douyin.com/search/%E4%B8%80%E7%BB%84%E5%AF%B9%E6%AF%94%E7%85%A7%E7%89%87%E7%9C%8B%E6%B7%B1%E5%9C%B3%E6%B2%A7%E6%B5%B7%E6%A1%91%E7%94%B0",
           "domain": "life",
           "tags": [
             "照片"
           ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 10,
-          "title": "中方回应高市早苗接机仪式",
-          "heat": 9258846,
-          "heatText": "925.9万",
-          "url": "https://www.douyin.com/search/%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%8E%A5%E6%9C%BA%E4%BB%AA%E5%BC%8F",
-          "domain": "politics",
-          "tags": [
-            "高市早苗"
-          ],
           "isNew": false,
           "delta": 0
         },
         {
+          "rank": 10,
+          "title": "国安对阵海港谁能拿下这场比赛",
+          "heat": 9253154,
+          "heatText": "925.3万",
+          "url": "https://www.douyin.com/search/%E5%9B%BD%E5%AE%89%E5%AF%B9%E9%98%B5%E6%B5%B7%E6%B8%AF%E8%B0%81%E8%83%BD%E6%8B%BF%E4%B8%8B%E8%BF%99%E5%9C%BA%E6%AF%94%E8%B5%9B",
+          "domain": "sports",
+          "tags": [
+            "比赛"
+          ],
+          "isNew": true,
+          "delta": null
+        },
+        {
           "rank": 11,
           "title": "现货黄金跌破3600美元",
-          "heat": 9252993,
-          "heatText": "925.3万",
+          "heat": 9249541,
+          "heatText": "925.0万",
           "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E8%B7%8C%E7%A0%B43600%E7%BE%8E%E5%85%83",
           "domain": "business",
           "tags": [
             "美元",
             "黄金"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 0
         },
         {
           "rank": 12,
           "title": "挑战给妈妈打电话说我爱你",
-          "heat": 9169311,
-          "heatText": "916.9万",
+          "heat": 9147635,
+          "heatText": "914.8万",
           "url": "https://www.douyin.com/search/%E6%8C%91%E6%88%98%E7%BB%99%E5%A6%88%E5%A6%88%E6%89%93%E7%94%B5%E8%AF%9D%E8%AF%B4%E6%88%91%E7%88%B1%E4%BD%A0",
           "domain": "life",
           "tags": [
             "妈妈"
           ],
           "isNew": false,
-          "delta": -1
-        },
-        {
-          "rank": 13,
-          "title": "证监会辟谣基金AI敞口报送传闻",
-          "heat": 9152939,
-          "heatText": "915.3万",
-          "url": "https://www.douyin.com/search/%E8%AF%81%E7%9B%91%E4%BC%9A%E8%BE%9F%E8%B0%A3%E5%9F%BA%E9%87%91AI%E6%95%9E%E5%8F%A3%E6%8A%A5%E9%80%81%E4%BC%A0%E9%97%BB",
-          "domain": "tech",
-          "tags": [
-            "ai"
-          ],
-          "isNew": false,
           "delta": 0
         },
         {
-          "rank": 14,
-          "title": "橘子海剪影宿命感拉满",
-          "heat": 9143291,
-          "heatText": "914.3万",
-          "url": "https://www.douyin.com/search/%E6%A9%98%E5%AD%90%E6%B5%B7%E5%89%AA%E5%BD%B1%E5%AE%BF%E5%91%BD%E6%84%9F%E6%8B%89%E6%BB%A1",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -2
-        },
-        {
-          "rank": 15,
-          "title": "找到了我的本命旅游地",
-          "heat": 9115135,
-          "heatText": "911.5万",
-          "url": "https://www.douyin.com/search/%E6%89%BE%E5%88%B0%E4%BA%86%E6%88%91%E7%9A%84%E6%9C%AC%E5%91%BD%E6%97%85%E6%B8%B8%E5%9C%B0",
-          "domain": "life",
-          "tags": [
-            "旅游"
-          ],
-          "isNew": false,
-          "delta": 1
-        },
-        {
-          "rank": 16,
+          "rank": 13,
           "title": "队长哪里都是你迎来最痛的一集",
-          "heat": 8997070,
-          "heatText": "899.7万",
+          "heat": 9134698,
+          "heatText": "913.5万",
           "url": "https://www.douyin.com/search/%E9%98%9F%E9%95%BF%E5%93%AA%E9%87%8C%E9%83%BD%E6%98%AF%E4%BD%A0%E8%BF%8E%E6%9D%A5%E6%9C%80%E7%97%9B%E7%9A%84%E4%B8%80%E9%9B%86",
           "domain": "sports",
           "tags": [
             "队长"
           ],
           "isNew": false,
-          "delta": -1
+          "delta": 3
         },
         {
-          "rank": 17,
+          "rank": 14,
+          "title": "橘子海剪影宿命感拉满",
+          "heat": 9133679,
+          "heatText": "913.4万",
+          "url": "https://www.douyin.com/search/%E6%A9%98%E5%AD%90%E6%B5%B7%E5%89%AA%E5%BD%B1%E5%AE%BF%E5%91%BD%E6%84%9F%E6%8B%89%E6%BB%A1",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 15,
+          "title": "找到了我的本命旅游地",
+          "heat": 9116892,
+          "heatText": "911.7万",
+          "url": "https://www.douyin.com/search/%E6%89%BE%E5%88%B0%E4%BA%86%E6%88%91%E7%9A%84%E6%9C%AC%E5%91%BD%E6%97%85%E6%B8%B8%E5%9C%B0",
+          "domain": "life",
+          "tags": [
+            "旅游"
+          ],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 16,
           "title": "特朗普启程返美",
-          "heat": 8942276,
-          "heatText": "894.2万",
+          "heat": 9111680,
+          "heatText": "911.2万",
           "url": "https://www.douyin.com/search/%E7%89%B9%E6%9C%97%E6%99%AE%E5%90%AF%E7%A8%8B%E8%BF%94%E7%BE%8E",
           "domain": "politics",
           "tags": [
             "特朗普"
           ],
           "isNew": false,
-          "delta": 0
+          "delta": 1
+        },
+        {
+          "rank": 17,
+          "title": "中方回应高市早苗接机仪式",
+          "heat": 8847012,
+          "heatText": "884.7万",
+          "url": "https://www.douyin.com/search/%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%8E%A5%E6%9C%BA%E4%BB%AA%E5%BC%8F",
+          "domain": "politics",
+          "tags": [
+            "高市早苗"
+          ],
+          "isNew": false,
+          "delta": -7
         },
         {
           "rank": 18,
           "title": "金饰克价年内下跌近600元",
-          "heat": 8873967,
-          "heatText": "887.4万",
+          "heat": 8362542,
+          "heatText": "836.3万",
           "url": "https://www.douyin.com/search/%E9%87%91%E9%A5%B0%E5%85%8B%E4%BB%B7%E5%B9%B4%E5%86%85%E4%B8%8B%E8%B7%8C%E8%BF%91600%E5%85%83",
           "domain": "other",
           "tags": [],
@@ -1210,232 +1195,254 @@
         },
         {
           "rank": 19,
-          "title": "普京用中文向APEC与会者致谢",
-          "heat": 8487348,
-          "heatText": "848.7万",
-          "url": "https://www.douyin.com/search/%E6%99%AE%E4%BA%AC%E7%94%A8%E4%B8%AD%E6%96%87%E5%90%91APEC%E4%B8%8E%E4%BC%9A%E8%80%85%E8%87%B4%E8%B0%A2",
-          "domain": "politics",
-          "tags": [
-            "普京"
-          ],
-          "isNew": false,
-          "delta": 0
+          "title": "开拓者124:114战胜雄鹿",
+          "heat": 8329319,
+          "heatText": "832.9万",
+          "url": "https://www.douyin.com/search/%E5%BC%80%E6%8B%93%E8%80%85124%3A114%E6%88%98%E8%83%9C%E9%9B%84%E9%B9%BF",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 20,
           "title": "严苛的训练二创挑战",
-          "heat": 7967880,
-          "heatText": "796.8万",
+          "heat": 7813161,
+          "heatText": "781.3万",
           "url": "https://www.douyin.com/search/%E4%B8%A5%E8%8B%9B%E7%9A%84%E8%AE%AD%E7%BB%83%E4%BA%8C%E5%88%9B%E6%8C%91%E6%88%98",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 13
+          "delta": 0
         },
         {
           "rank": 21,
-          "title": "成毅新剧叛逆儿子",
-          "heat": 7805181,
-          "heatText": "780.5万",
-          "url": "https://www.douyin.com/search/%E6%88%90%E6%AF%85%E6%96%B0%E5%89%A7%E5%8F%9B%E9%80%86%E5%84%BF%E5%AD%90",
+          "title": "两京十五日今日开播",
+          "heat": 7808864,
+          "heatText": "780.9万",
+          "url": "https://www.douyin.com/search/%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD",
           "domain": "screen",
           "tags": [
-            "新剧"
+            "开播"
           ],
-          "isNew": false,
-          "delta": 17
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 22,
-          "title": "旅行者1号正式抵达1光日",
-          "heat": 7791143,
-          "heatText": "779.1万",
-          "url": "https://www.douyin.com/search/%E6%97%85%E8%A1%8C%E8%80%851%E5%8F%B7%E6%AD%A3%E5%BC%8F%E6%8A%B5%E8%BE%BE1%E5%85%89%E6%97%A5",
-          "domain": "life",
+          "title": "爱笑的天使20周年合唱版将上线",
+          "heat": 7797209,
+          "heatText": "779.7万",
+          "url": "https://www.douyin.com/search/%E7%88%B1%E7%AC%91%E7%9A%84%E5%A4%A9%E4%BD%BF20%E5%91%A8%E5%B9%B4%E5%90%88%E5%94%B1%E7%89%88%E5%B0%86%E4%B8%8A%E7%BA%BF",
+          "domain": "screen",
           "tags": [
-            "旅行"
+            "上线"
           ],
+          "isNew": false,
+          "delta": 25
+        },
+        {
+          "rank": 23,
+          "title": "多喜一家人赛秀明向妻子下跪",
+          "heat": 7777167,
+          "heatText": "777.7万",
+          "url": "https://www.douyin.com/search/%E5%A4%9A%E5%96%9C%E4%B8%80%E5%AE%B6%E4%BA%BA%E8%B5%9B%E7%A7%80%E6%98%8E%E5%90%91%E5%A6%BB%E5%AD%90%E4%B8%8B%E8%B7%AA",
+          "domain": "other",
+          "tags": [],
           "isNew": false,
           "delta": 2
         },
         {
-          "rank": 23,
-          "title": "等来了威海的第一场初雪",
-          "heat": 7764367,
-          "heatText": "776.4万",
-          "url": "https://www.douyin.com/search/%E7%AD%89%E6%9D%A5%E4%BA%86%E5%A8%81%E6%B5%B7%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9C%BA%E5%88%9D%E9%9B%AA",
+          "rank": 24,
+          "title": "伪史论为什么越离谱越有人信",
+          "heat": 7774509,
+          "heatText": "777.5万",
+          "url": "https://www.douyin.com/search/%E4%BC%AA%E5%8F%B2%E8%AE%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E7%A6%BB%E8%B0%B1%E8%B6%8A%E6%9C%89%E4%BA%BA%E4%BF%A1",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -2
+          "delta": 2
         },
         {
-          "rank": 24,
-          "title": "为了梦想再苦也不停止脚步",
-          "heat": 7762688,
-          "heatText": "776.3万",
-          "url": "https://www.douyin.com/search/%E4%B8%BA%E4%BA%86%E6%A2%A6%E6%83%B3%E5%86%8D%E8%8B%A6%E4%B9%9F%E4%B8%8D%E5%81%9C%E6%AD%A2%E8%84%9A%E6%AD%A5",
+          "rank": 25,
+          "title": "这口热乎菜吃完不烧心",
+          "heat": 7760843,
+          "heatText": "776.1万",
+          "url": "https://www.douyin.com/search/%E8%BF%99%E5%8F%A3%E7%83%AD%E4%B9%8E%E8%8F%9C%E5%90%83%E5%AE%8C%E4%B8%8D%E7%83%A7%E5%BF%83",
           "domain": "other",
           "tags": [],
           "isNew": false,
           "delta": 4
         },
         {
-          "rank": 25,
-          "title": "多喜一家人赛秀明向妻子下跪",
-          "heat": 7762554,
-          "heatText": "776.3万",
-          "url": "https://www.douyin.com/search/%E5%A4%9A%E5%96%9C%E4%B8%80%E5%AE%B6%E4%BA%BA%E8%B5%9B%E7%A7%80%E6%98%8E%E5%90%91%E5%A6%BB%E5%AD%90%E4%B8%8B%E8%B7%AA",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -2
-        },
-        {
           "rank": 26,
-          "title": "伪史论为什么越离谱越有人信",
-          "heat": 7751212,
-          "heatText": "775.1万",
-          "url": "https://www.douyin.com/search/%E4%BC%AA%E5%8F%B2%E8%AE%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E7%A6%BB%E8%B0%B1%E8%B6%8A%E6%9C%89%E4%BA%BA%E4%BF%A1",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 0
-        },
-        {
-          "rank": 27,
           "title": "谁还没跳茉茉手势舞",
-          "heat": 7730231,
-          "heatText": "773.0万",
+          "heat": 7759443,
+          "heatText": "775.9万",
           "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E8%B7%B3%E8%8C%89%E8%8C%89%E6%89%8B%E5%8A%BF%E8%88%9E",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -7
+          "delta": 1
         },
         {
-          "rank": 28,
-          "title": "Donk瓦场悟道",
-          "heat": 7727032,
-          "heatText": "772.7万",
-          "url": "https://www.douyin.com/search/Donk%E7%93%A6%E5%9C%BA%E6%82%9F%E9%81%93",
+          "rank": 27,
+          "title": "为了梦想再苦也不停止脚步",
+          "heat": 7748048,
+          "heatText": "774.8万",
+          "url": "https://www.douyin.com/search/%E4%B8%BA%E4%BA%86%E6%A2%A6%E6%83%B3%E5%86%8D%E8%8B%A6%E4%B9%9F%E4%B8%8D%E5%81%9C%E6%AD%A2%E8%84%9A%E6%AD%A5",
           "domain": "other",
           "tags": [],
           "isNew": false,
           "delta": -3
         },
         {
-          "rank": 29,
-          "title": "这口热乎菜吃完不烧心",
-          "heat": 7720308,
-          "heatText": "772.0万",
-          "url": "https://www.douyin.com/search/%E8%BF%99%E5%8F%A3%E7%83%AD%E4%B9%8E%E8%8F%9C%E5%90%83%E5%AE%8C%E4%B8%8D%E7%83%A7%E5%BF%83",
+          "rank": 28,
+          "title": "等来了威海的第一场初雪",
+          "heat": 7745897,
+          "heatText": "774.6万",
+          "url": "https://www.douyin.com/search/%E7%AD%89%E6%9D%A5%E4%BA%86%E5%A8%81%E6%B5%B7%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9C%BA%E5%88%9D%E9%9B%AA",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 3
+          "delta": -5
         },
         {
-          "rank": 30,
+          "rank": 29,
           "title": "跟随赵露思开启冷都女时代",
-          "heat": 7701738,
-          "heatText": "770.2万",
+          "heat": 7734329,
+          "heatText": "773.4万",
           "url": "https://www.douyin.com/search/%E8%B7%9F%E9%9A%8F%E8%B5%B5%E9%9C%B2%E6%80%9D%E5%BC%80%E5%90%AF%E5%86%B7%E9%83%BD%E5%A5%B3%E6%97%B6%E4%BB%A3",
           "domain": "celebrity",
           "tags": [
             "赵露思"
           ],
           "isNew": false,
-          "delta": 0
+          "delta": 1
         },
         {
-          "rank": 31,
+          "rank": 30,
           "title": "王子璇的清醒可可卷好上头",
-          "heat": 7691338,
-          "heatText": "769.1万",
+          "heat": 7722703,
+          "heatText": "772.3万",
           "url": "https://www.douyin.com/search/%E7%8E%8B%E5%AD%90%E7%92%87%E7%9A%84%E6%B8%85%E9%86%92%E5%8F%AF%E5%8F%AF%E5%8D%B7%E5%A5%BD%E4%B8%8A%E5%A4%B4",
           "domain": "celebrity",
           "tags": [
             "王子璇"
           ],
           "isNew": false,
-          "delta": 0
+          "delta": 1
         },
         {
-          "rank": 32,
+          "rank": 31,
           "title": "咪也喝上奶奶牌鸡骨草了",
-          "heat": 7688413,
-          "heatText": "768.8万",
+          "heat": 7703482,
+          "heatText": "770.3万",
           "url": "https://www.douyin.com/search/%E5%92%AA%E4%B9%9F%E5%96%9D%E4%B8%8A%E5%A5%B6%E5%A5%B6%E7%89%8C%E9%B8%A1%E9%AA%A8%E8%8D%89%E4%BA%86",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 2
+          "delta": 1
         },
         {
-          "rank": 33,
+          "rank": 32,
           "title": "伊能静能不能常驻后会友期",
-          "heat": 7687327,
-          "heatText": "768.7万",
+          "heat": 7698973,
+          "heatText": "769.9万",
           "url": "https://www.douyin.com/search/%E4%BC%8A%E8%83%BD%E9%9D%99%E8%83%BD%E4%B8%8D%E8%83%BD%E5%B8%B8%E9%A9%BB%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
           "domain": "screen",
           "tags": [
             "后会友期"
           ],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 34,
-          "title": "让你爱上我要多久",
-          "heat": 7680670,
-          "heatText": "768.1万",
-          "url": "https://www.douyin.com/search/%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E6%88%91%E8%A6%81%E5%A4%9A%E4%B9%85",
-          "domain": "other",
-          "tags": [],
           "isNew": false,
-          "delta": 7
+          "delta": 1
         },
         {
-          "rank": 35,
-          "title": "一二三四卡点手势舞",
-          "heat": 7678054,
-          "heatText": "767.8万",
-          "url": "https://www.douyin.com/search/%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E5%8D%A1%E7%82%B9%E6%89%8B%E5%8A%BF%E8%88%9E",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 2
-        },
-        {
-          "rank": 36,
+          "rank": 33,
           "title": "我的明星同款脸藏不住了",
-          "heat": 7676127,
-          "heatText": "767.6万",
+          "heat": 7696021,
+          "heatText": "769.6万",
           "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%98%8E%E6%98%9F%E5%90%8C%E6%AC%BE%E8%84%B8%E8%97%8F%E4%B8%8D%E4%BD%8F%E4%BA%86",
           "domain": "celebrity",
           "tags": [
             "明星"
           ],
           "isNew": false,
-          "delta": 4
+          "delta": 3
         },
         {
-          "rank": 37,
-          "title": "两京十五日朱瞻基含泪赐死袁仲达",
-          "heat": 7672254,
-          "heatText": "767.2万",
-          "url": "https://www.douyin.com/search/%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E6%9C%B1%E7%9E%BB%E5%9F%BA%E5%90%AB%E6%B3%AA%E8%B5%90%E6%AD%BB%E8%A2%81%E4%BB%B2%E8%BE%BE",
+          "rank": 34,
+          "title": "萌叔问你真的不嫁给我吗",
+          "heat": 7693660,
+          "heatText": "769.4万",
+          "url": "https://www.douyin.com/search/%E8%90%8C%E5%8F%94%E9%97%AE%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%AB%81%E7%BB%99%E6%88%91%E5%90%97",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 10
+          "delta": 5
+        },
+        {
+          "rank": 35,
+          "title": "小猫律动舞我能看一天",
+          "heat": 7692271,
+          "heatText": "769.2万",
+          "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E5%BE%8B%E5%8A%A8%E8%88%9E%E6%88%91%E8%83%BD%E7%9C%8B%E4%B8%80%E5%A4%A9",
+          "domain": "life",
+          "tags": [
+            "猫"
+          ],
+          "isNew": false,
+          "delta": 5
+        },
+        {
+          "rank": 36,
+          "title": "我的未来存款让我富了三秒",
+          "heat": 7689181,
+          "heatText": "768.9万",
+          "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%9C%AA%E6%9D%A5%E5%AD%98%E6%AC%BE%E8%AE%A9%E6%88%91%E5%AF%8C%E4%BA%86%E4%B8%89%E7%A7%92",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 5
+        },
+        {
+          "rank": 37,
+          "title": "Donk瓦场悟道",
+          "heat": 7679968,
+          "heatText": "768.0万",
+          "url": "https://www.douyin.com/search/Donk%E7%93%A6%E5%9C%BA%E6%82%9F%E9%81%93",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -9
         },
         {
           "rank": 38,
+          "title": "超级棒棒糖给我神奇的力量",
+          "heat": 7676057,
+          "heatText": "767.6万",
+          "url": "https://www.douyin.com/search/%E8%B6%85%E7%BA%A7%E6%A3%92%E6%A3%92%E7%B3%96%E7%BB%99%E6%88%91%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8A%9B%E9%87%8F",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 7
+        },
+        {
+          "rank": 39,
+          "title": "让你爱上我要多久",
+          "heat": 7673800,
+          "heatText": "767.4万",
+          "url": "https://www.douyin.com/search/%E8%AE%A9%E4%BD%A0%E7%88%B1%E4%B8%8A%E6%88%91%E8%A6%81%E5%A4%9A%E4%B9%85",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -5
+        },
+        {
+          "rank": 40,
           "title": "王子璇还原文吉儿火车换位置事件",
-          "heat": 7671389,
-          "heatText": "767.1万",
+          "heat": 7672632,
+          "heatText": "767.3万",
           "url": "https://www.douyin.com/search/%E7%8E%8B%E5%AD%90%E7%92%87%E8%BF%98%E5%8E%9F%E6%96%87%E5%90%89%E5%84%BF%E7%81%AB%E8%BD%A6%E6%8D%A2%E4%BD%8D%E7%BD%AE%E4%BA%8B%E4%BB%B6",
           "domain": "celebrity",
           "tags": [
@@ -1446,144 +1453,109 @@
           "delta": -2
         },
         {
-          "rank": 39,
-          "title": "萌叔问你真的不嫁给我吗",
-          "heat": 7669839,
-          "heatText": "767.0万",
-          "url": "https://www.douyin.com/search/%E8%90%8C%E5%8F%94%E9%97%AE%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%B8%8D%E5%AB%81%E7%BB%99%E6%88%91%E5%90%97",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 4
-        },
-        {
-          "rank": 40,
-          "title": "小猫律动舞我能看一天",
-          "heat": 7668932,
-          "heatText": "766.9万",
-          "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E5%BE%8B%E5%8A%A8%E8%88%9E%E6%88%91%E8%83%BD%E7%9C%8B%E4%B8%80%E5%A4%A9",
-          "domain": "life",
-          "tags": [
-            "猫"
-          ],
-          "isNew": false,
-          "delta": 4
-        },
-        {
           "rank": 41,
-          "title": "我的未来存款让我富了三秒",
-          "heat": 7668160,
-          "heatText": "766.8万",
-          "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%9C%AA%E6%9D%A5%E5%AD%98%E6%AC%BE%E8%AE%A9%E6%88%91%E5%AF%8C%E4%BA%86%E4%B8%89%E7%A7%92",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 4
-        },
-        {
-          "rank": 42,
-          "title": "严苛的训练几乎要了我的命",
-          "heat": 7666466,
-          "heatText": "766.6万",
-          "url": "https://www.douyin.com/search/%E4%B8%A5%E8%8B%9B%E7%9A%84%E8%AE%AD%E7%BB%83%E5%87%A0%E4%B9%8E%E8%A6%81%E4%BA%86%E6%88%91%E7%9A%84%E5%91%BD",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": 4
-        },
-        {
-          "rank": 43,
-          "title": "累了就出去玩",
-          "heat": 7665302,
-          "heatText": "766.5万",
-          "url": "https://www.douyin.com/search/%E7%B4%AF%E4%BA%86%E5%B0%B1%E5%87%BA%E5%8E%BB%E7%8E%A9",
+          "title": "高智姐感裸妆清冷天花板",
+          "heat": 7672080,
+          "heatText": "767.2万",
+          "url": "https://www.douyin.com/search/%E9%AB%98%E6%99%BA%E5%A7%90%E6%84%9F%E8%A3%B8%E5%A6%86%E6%B8%85%E5%86%B7%E5%A4%A9%E8%8A%B1%E6%9D%BF",
           "domain": "other",
           "tags": [],
           "isNew": false,
           "delta": 5
         },
         {
-          "rank": 44,
+          "rank": 42,
           "title": "人生至少有一个冬天属于阿勒泰",
-          "heat": 7663027,
-          "heatText": "766.3万",
+          "heat": 7669101,
+          "heatText": "766.9万",
           "url": "https://www.douyin.com/search/%E4%BA%BA%E7%94%9F%E8%87%B3%E5%B0%91%E6%9C%89%E4%B8%80%E4%B8%AA%E5%86%AC%E5%A4%A9%E5%B1%9E%E4%BA%8E%E9%98%BF%E5%8B%92%E6%B3%B0",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -22
+          "delta": 2
+        },
+        {
+          "rank": 43,
+          "title": "累了就出去玩",
+          "heat": 7665609,
+          "heatText": "766.6万",
+          "url": "https://www.douyin.com/search/%E7%B4%AF%E4%BA%86%E5%B0%B1%E5%87%BA%E5%8E%BB%E7%8E%A9",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 44,
+          "title": "一二三四卡点手势舞",
+          "heat": 7665358,
+          "heatText": "766.5万",
+          "url": "https://www.douyin.com/search/%E4%B8%80%E4%BA%8C%E4%B8%89%E5%9B%9B%E5%8D%A1%E7%82%B9%E6%89%8B%E5%8A%BF%E8%88%9E",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -9
         },
         {
           "rank": 45,
-          "title": "超级棒棒糖给我神奇的力量",
-          "heat": 7661004,
-          "heatText": "766.1万",
-          "url": "https://www.douyin.com/search/%E8%B6%85%E7%BA%A7%E6%A3%92%E6%A3%92%E7%B3%96%E7%BB%99%E6%88%91%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8A%9B%E9%87%8F",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -16
-        },
-        {
-          "rank": 46,
-          "title": "高智姐感裸妆清冷天花板",
-          "heat": 7657296,
-          "heatText": "765.7万",
-          "url": "https://www.douyin.com/search/%E9%AB%98%E6%99%BA%E5%A7%90%E6%84%9F%E8%A3%B8%E5%A6%86%E6%B8%85%E5%86%B7%E5%A4%A9%E8%8A%B1%E6%9D%BF",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -4
-        },
-        {
-          "rank": 47,
-          "title": "爱笑的天使20周年合唱版将上线",
-          "heat": 7657027,
-          "heatText": "765.7万",
-          "url": "https://www.douyin.com/search/%E7%88%B1%E7%AC%91%E7%9A%84%E5%A4%A9%E4%BD%BF20%E5%91%A8%E5%B9%B4%E5%90%88%E5%94%B1%E7%89%88%E5%B0%86%E4%B8%8A%E7%BA%BF",
-          "domain": "screen",
+          "title": "慌啥子嘛要好好吃饭呀",
+          "heat": 7664127,
+          "heatText": "766.4万",
+          "url": "https://www.douyin.com/search/%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E8%A6%81%E5%A5%BD%E5%A5%BD%E5%90%83%E9%A5%AD%E5%91%80",
+          "domain": "life",
           "tags": [
-            "上线"
+            "好吃"
           ],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 48,
-          "title": "岳岳Espresso转圈运镜简直太帅了",
-          "heat": 7656376,
-          "heatText": "765.6万",
-          "url": "https://www.douyin.com/search/%E5%B2%B3%E5%B2%B3Espresso%E8%BD%AC%E5%9C%88%E8%BF%90%E9%95%9C%E7%AE%80%E7%9B%B4%E5%A4%AA%E5%B8%85%E4%BA%86",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 49,
+          "rank": 46,
           "title": "Deft结束兵役重返LCK赛场",
-          "heat": 7655887,
-          "heatText": "765.6万",
+          "heat": 7662115,
+          "heatText": "766.2万",
           "url": "https://www.douyin.com/search/Deft%E7%BB%93%E6%9D%9F%E5%85%B5%E5%BD%B9%E9%87%8D%E8%BF%94LCK%E8%B5%9B%E5%9C%BA",
           "domain": "gaming",
           "tags": [
             "lck"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 3
         },
         {
-          "rank": 50,
+          "rank": 47,
+          "title": "岳岳Espresso转圈运镜简直太帅了",
+          "heat": 7661186,
+          "heatText": "766.1万",
+          "url": "https://www.douyin.com/search/%E5%B2%B3%E5%B2%B3Espresso%E8%BD%AC%E5%9C%88%E8%BF%90%E9%95%9C%E7%AE%80%E7%9B%B4%E5%A4%AA%E5%B8%85%E4%BA%86",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 1
+        },
+        {
+          "rank": 48,
           "title": "一杯苹果糖是我的生活良方",
-          "heat": 7652834,
-          "heatText": "765.3万",
+          "heat": 7650895,
+          "heatText": "765.1万",
           "url": "https://www.douyin.com/search/%E4%B8%80%E6%9D%AF%E8%8B%B9%E6%9E%9C%E7%B3%96%E6%98%AF%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E8%89%AF%E6%96%B9",
           "domain": "tech",
           "tags": [
             "苹果"
           ],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 2
+        },
+        {
+          "rank": 49,
+          "title": "严苛的训练几乎要了我的命",
+          "heat": 7650776,
+          "heatText": "765.1万",
+          "url": "https://www.douyin.com/search/%E4%B8%A5%E8%8B%9B%E7%9A%84%E8%AE%AD%E7%BB%83%E5%87%A0%E4%B9%8E%E8%A6%81%E4%BA%86%E6%88%91%E7%9A%84%E5%91%BD",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -7
         }
       ]
     },
@@ -1594,7 +1566,7 @@
       "feed": "全球趋势",
       "color": "#f3f1ea",
       "status": {
-        "count": 26,
+        "count": 25,
         "ok": true,
         "error": "",
         "note": "X 全球趋势 + 美国区补充（公开镜像）",
@@ -1604,21 +1576,21 @@
       "items": [
         {
           "rank": 1,
-          "title": "#すき家のとんたんどん食べたい",
+          "title": "#香るおむすび新旋風",
           "heat": 0,
           "heatText": "趋势 #1",
-          "url": "https://getdaytrends.com/trend/%23%E3%81%99%E3%81%8D%E5%AE%B6%E3%81%AE%E3%81%A8%E3%82%93%E3%81%9F%E3%82%93%E3%81%A9%E3%82%93%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84/",
+          "url": "https://getdaytrends.com/trend/%23%E9%A6%99%E3%82%8B%E3%81%8A%E3%82%80%E3%81%99%E3%81%B3%E6%96%B0%E6%97%8B%E9%A2%A8/",
           "domain": "other",
           "tags": [],
-          "isNew": false,
-          "delta": 4
+          "isNew": true,
+          "delta": null
         },
         {
           "rank": 2,
-          "title": "#ゴンチャ100万人フォロワー記念",
+          "title": "#すき家のとんたんどん食べたい",
           "heat": 0,
           "heatText": "趋势 #2",
-          "url": "https://getdaytrends.com/trend/%23%E3%82%B4%E3%83%B3%E3%83%81%E3%83%A3100%E4%B8%87%E4%BA%BA%E3%83%95%E3%82%A9%E3%83%AD%E3%83%AF%E3%83%BC%E8%A8%98%E5%BF%B5/",
+          "url": "https://getdaytrends.com/trend/%23%E3%81%99%E3%81%8D%E5%AE%B6%E3%81%AE%E3%81%A8%E3%82%93%E3%81%9F%E3%82%93%E3%81%A9%E3%82%93%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84/",
           "domain": "other",
           "tags": [],
           "isNew": false,
@@ -1626,10 +1598,10 @@
         },
         {
           "rank": 3,
-          "title": "#EMONEYRP1",
+          "title": "Colts",
           "heat": 0,
           "heatText": "趋势 #3",
-          "url": "https://getdaytrends.com/trend/%23EMONEYRP1/",
+          "url": "https://getdaytrends.com/trend/Colts/",
           "domain": "other",
           "tags": [],
           "isNew": false,
@@ -1637,54 +1609,54 @@
         },
         {
           "rank": 4,
-          "title": "Colts",
-          "heat": 0,
-          "heatText": "趋势 #4",
-          "url": "https://getdaytrends.com/trend/Colts/",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 5,
-          "title": "#EliminacaoAFazenda",
-          "heat": 0,
-          "heatText": "趋势 #5",
-          "url": "https://getdaytrends.com/trend/%23EliminacaoAFazenda/",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 6,
-          "title": "fiona",
-          "heat": 0,
-          "heatText": "趋势 #6",
-          "url": "https://getdaytrends.com/trend/fiona/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -4
-        },
-        {
-          "rank": 7,
           "title": "Daniel Jones",
           "heat": 0,
-          "heatText": "趋势 #7",
+          "heatText": "趋势 #4",
           "url": "https://getdaytrends.com/trend/Daniel%20Jones/",
           "domain": "other",
           "tags": [],
-          "isNew": true,
-          "delta": null
+          "isNew": false,
+          "delta": 3
+        },
+        {
+          "rank": 5,
+          "title": "#ゴンチャ100万人フォロワー記念",
+          "heat": 0,
+          "heatText": "趋势 #5",
+          "url": "https://getdaytrends.com/trend/%23%E3%82%B4%E3%83%B3%E3%83%81%E3%83%A3100%E4%B8%87%E4%BA%BA%E3%83%95%E3%82%A9%E3%83%AD%E3%83%AF%E3%83%BC%E8%A8%98%E5%BF%B5/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -3
+        },
+        {
+          "rank": 6,
+          "title": "#EMONEYRP1",
+          "heat": 0,
+          "heatText": "趋势 #6",
+          "url": "https://getdaytrends.com/trend/%23EMONEYRP1/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -3
+        },
+        {
+          "rank": 7,
+          "title": "#祝東京ばな奈35歳",
+          "heat": 0,
+          "heatText": "趋势 #7",
+          "url": "https://getdaytrends.com/trend/%23%E7%A5%9D%E6%9D%B1%E4%BA%AC%E3%81%B0%E3%81%AA%E5%A5%8835%E6%AD%B3/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 1
         },
         {
           "rank": 8,
-          "title": "#祝東京ばな奈35歳",
+          "title": "あと半日",
           "heat": 0,
           "heatText": "趋势 #8",
-          "url": "https://getdaytrends.com/trend/%23%E7%A5%9D%E6%9D%B1%E4%BA%AC%E3%81%B0%E3%81%AA%E5%A5%8835%E6%AD%B3/",
+          "url": "https://getdaytrends.com/trend/%E3%81%82%E3%81%A8%E5%8D%8A%E6%97%A5/",
           "domain": "other",
           "tags": [],
           "isNew": true,
@@ -1692,58 +1664,58 @@
         },
         {
           "rank": 9,
-          "title": "Bhandara By Sant Rampal Ji",
+          "title": "Anthony Richardson",
           "heat": 0,
           "heatText": "趋势 #9",
+          "url": "https://getdaytrends.com/trend/Anthony%20Richardson/",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 10,
+          "title": "魔法使い",
+          "heat": 0,
+          "heatText": "趋势 #10",
+          "url": "https://getdaytrends.com/trend/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84/",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 11,
+          "title": "Bhandara By Sant Rampal Ji",
+          "heat": 0,
+          "heatText": "趋势 #11",
           "url": "https://getdaytrends.com/trend/Bhandara%20By%20Sant%20Rampal%20Ji/",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 5
+          "delta": -2
         },
         {
-          "rank": 10,
+          "rank": 12,
+          "title": "fiona",
+          "heat": 0,
+          "heatText": "趋势 #12",
+          "url": "https://getdaytrends.com/trend/fiona/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -6
+        },
+        {
+          "rank": 13,
           "title": "Texans",
           "heat": 0,
-          "heatText": "趋势 #10",
+          "heatText": "趋势 #13",
           "url": "https://getdaytrends.com/trend/Texans/",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -1
-        },
-        {
-          "rank": 11,
-          "title": "AARON EN LA GALA DE GQ",
-          "heat": 0,
-          "heatText": "趋势 #11",
-          "url": "https://getdaytrends.com/trend/AARON%20EN%20LA%20GALA%20DE%20GQ/",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 12,
-          "title": "XCRY EN GQ",
-          "heat": 0,
-          "heatText": "趋势 #12",
-          "url": "https://getdaytrends.com/trend/XCRY%20EN%20GQ/",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
-        },
-        {
-          "rank": 13,
-          "title": "ersson",
-          "heat": 0,
-          "heatText": "趋势 #13",
-          "url": "https://getdaytrends.com/trend/ersson/",
-          "domain": "other",
-          "tags": [],
-          "isNew": true,
-          "delta": null
+          "delta": -3
         },
         {
           "rank": 14,
@@ -1754,32 +1726,21 @@
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -3
-        },
-        {
-          "rank": 15,
-          "title": "Gopay",
-          "heat": 0,
-          "heatText": "趋势 #15",
-          "url": "https://getdaytrends.com/trend/Gopay/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
           "delta": 0
         },
         {
-          "rank": 16,
-          "title": "#911onABC",
+          "rank": 15,
+          "title": "AARON EN LA GALA DE GQ",
           "heat": 0,
-          "heatText": "趋势 #5",
-          "url": "https://getdaytrends.com/united-states/trend/%23911onABC/",
+          "heatText": "趋势 #15",
+          "url": "https://getdaytrends.com/trend/AARON%20EN%20LA%20GALA%20DE%20GQ/",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": -10
+          "delta": -4
         },
         {
-          "rank": 17,
+          "rank": 16,
           "title": "CJ Stroud",
           "heat": 0,
           "heatText": "趋势 #6",
@@ -1787,35 +1748,79 @@
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 3
+          "delta": 1
+        },
+        {
+          "rank": 17,
+          "title": "#911onABC",
+          "heat": 0,
+          "heatText": "趋势 #7",
+          "url": "https://getdaytrends.com/united-states/trend/%23911onABC/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -1
         },
         {
           "rank": 18,
           "title": "#TheTraitorsUS",
           "heat": 0,
-          "heatText": "趋势 #7",
+          "heatText": "趋势 #8",
           "url": "https://getdaytrends.com/united-states/trend/%23TheTraitorsUS/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": 0
+        },
+        {
+          "rank": 19,
+          "title": "Shane Steichen",
+          "heat": 0,
+          "heatText": "趋势 #9",
+          "url": "https://getdaytrends.com/united-states/trend/Shane%20Steichen/",
           "domain": "other",
           "tags": [],
           "isNew": true,
           "delta": null
         },
         {
-          "rank": 19,
+          "rank": 20,
           "title": "Al Michaels",
           "heat": 0,
-          "heatText": "趋势 #8",
+          "heatText": "趋势 #10",
           "url": "https://getdaytrends.com/united-states/trend/Al%20Michaels/",
           "domain": "other",
           "tags": [],
           "isNew": false,
-          "delta": 3
+          "delta": -1
         },
         {
-          "rank": 20,
+          "rank": 21,
+          "title": "Marlin Klein",
+          "heat": 0,
+          "heatText": "趋势 #11",
+          "url": "https://getdaytrends.com/united-states/trend/Marlin%20Klein/",
+          "domain": "other",
+          "tags": [],
+          "isNew": true,
+          "delta": null
+        },
+        {
+          "rank": 22,
+          "title": "Davis Martin",
+          "heat": 0,
+          "heatText": "趋势 #12",
+          "url": "https://getdaytrends.com/united-states/trend/Davis%20Martin/",
+          "domain": "other",
+          "tags": [],
+          "isNew": false,
+          "delta": -1
+        },
+        {
+          "rank": 23,
           "title": "castillo",
           "heat": 0,
-          "heatText": "趋势 #9",
+          "heatText": "趋势 #13",
           "url": "https://getdaytrends.com/united-states/trend/castillo/",
           "domain": "other",
           "tags": [],
@@ -1823,44 +1828,11 @@
           "delta": -3
         },
         {
-          "rank": 21,
-          "title": "Davis Martin",
-          "heat": 0,
-          "heatText": "趋势 #10",
-          "url": "https://getdaytrends.com/united-states/trend/Davis%20Martin/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -3
-        },
-        {
-          "rank": 22,
-          "title": "Pete Rose",
-          "heat": 0,
-          "heatText": "趋势 #11",
-          "url": "https://getdaytrends.com/united-states/trend/Pete%20Rose/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -6
-        },
-        {
-          "rank": 23,
-          "title": "Rockies",
-          "heat": 0,
-          "heatText": "趋势 #12",
-          "url": "https://getdaytrends.com/united-states/trend/Rockies/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -2
-        },
-        {
           "rank": 24,
-          "title": "Athena",
+          "title": "#TNAiMPACT",
           "heat": 0,
-          "heatText": "趋势 #13",
-          "url": "https://getdaytrends.com/united-states/trend/Athena/",
+          "heatText": "趋势 #14",
+          "url": "https://getdaytrends.com/united-states/trend/%23TNAiMPACT/",
           "domain": "other",
           "tags": [],
           "isNew": true,
@@ -1868,21 +1840,10 @@
         },
         {
           "rank": 25,
-          "title": "Nico Collins",
-          "heat": 0,
-          "heatText": "趋势 #14",
-          "url": "https://getdaytrends.com/united-states/trend/Nico%20Collins/",
-          "domain": "other",
-          "tags": [],
-          "isNew": false,
-          "delta": -6
-        },
-        {
-          "rank": 26,
-          "title": "#911Nashville",
+          "title": "Will Anderson",
           "heat": 0,
           "heatText": "趋势 #15",
-          "url": "https://getdaytrends.com/united-states/trend/%23911Nashville/",
+          "url": "https://getdaytrends.com/united-states/trend/Will%20Anderson/",
           "domain": "other",
           "tags": [],
           "isNew": true,
